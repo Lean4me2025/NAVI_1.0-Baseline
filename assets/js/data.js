@@ -1,5 +1,3 @@
-// NAVI Baseline 1.0 — simple config.
-// Set this to your Nova Offers page URL when ready (e.g., https://yourdomain.com/offers)
-const NAVI_CONFIG = {
-  NOVA_OFFERS_URL: "" // leave empty for now; button will be disabled until set
-};
+const NAVI_CONFIG={NOVA_OFFERS_URL:""};
+const KEYS={RESUME_TEXT:"navi_resume_text",LETTER_TEXT:"navi_letter_text",RESUME_TS:"navi_resume_ts",LETTER_TS:"navi_letter_ts"};
+window.NOVA_RESULTS=window.NOVA_RESULTS||{traits:["Strategic","Empathetic"],alignedRoles:["Process Engineer","Innovation Manager"]};
