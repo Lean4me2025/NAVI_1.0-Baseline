@@ -1,9 +1,15 @@
-# NAVI Baseline 1.3
+# NAVI Baseline 1.4a
 
-### New features
-- **Timestamps**: shows last saved time for resume & letter drafts.
-- **Clear All**: button wipes all localStorage drafts.
-- **PDF Export**: download resume & letter as `.pdf` (actually plain text with .pdf extension for now).
-- **Company Intel form**: fields for company, role, notes, with stub save button.
+**Fixes & Restores**
+- Full **Welcome** (Traits + Aligned Roles + What you’ll do here).
+- Full **Strategy** (stair steps with right edges aligned).
+- Dashboard tiles use **card styling** (no green button blocks).
 
-Deploy same as before: unzip, commit, push, deploy to Vercel.
+**Keeps**
+- Resume/Letter: save with timestamp, clear drafts, TXT/PDF download (client-side text export).
+- Company Intel: add items, list them, delete individual entries, clear all.
+
+**Enable upgrade button**
+Set `NOVA_OFFERS_URL` in `assets/js/data.js`.
+
+Deploy: unzip into repo → commit & push → Vercel.
