@@ -10,13 +10,14 @@
 <body>
 
 <header class="site">
-  <nav class="nav container">
-    <a href="index.html" class="active">Welcome</a><a href="strategy.html">Strategy</a><a href="dashboard.html">Dashboard</a><a href="plans.html">Plans</a>
+  <nav class="nav">
+    <a href="index.html" class="active">Welcome</a><a href="strategy.html">Strategy</a><a href="dashboard.html">Dashboard</a>
+    <span class="spacer"></span>
+    <a href="plans.html" class="cta">Review Plans</a>
   </nav>
 </header>
 
   <main class="container">
-
 <div class="card">
   <h1 class="display">Welcome to <span style="color: var(--accent)">Navi</span></h1>
   <p class="lead">Your strategy guide, built on your NOVA traits. We turn purpose into a concrete plan with roles, skills, and next actions.</p>
@@ -27,7 +28,6 @@
   </div>
   <div class="actions">
     <a class="button" href="strategy.html">Start My Strategy</a>
-    <a class="button secondary" href="plans.html">View Plans</a>
   </div>
 </div>
 
@@ -35,19 +35,18 @@
   <div class="badge">How Navi works</div>
   <h2>From who you are → to what you do</h2>
   <div class="stairs">
-    <div class="step" data-w="1"><strong>Confirm your aim.</strong>&nbsp; Define goals anchored in NOVA’s strengths snapshot.</div>
-    <div class="step" data-w="2"><strong>Map your lane.</strong>&nbsp; Align roles, industries, and constraints (time, location).</div>
-    <div class="step" data-w="3"><strong>Equip your toolkit.</strong>&nbsp; Resume, cover letters, keywords, training gaps.</div>
-    <div class="step" data-w="4"><strong>Execute & iterate.</strong>&nbsp; Apply, track, refine — repeat until offer.</div>
+    <div class="step" data-step="4"><span class="n">4.</span><strong>Execute & iterate.</strong>&nbsp; Apply, track, refine — repeat until offer.</div>
+    <div class="step" data-step="3"><span class="n">3.</span><strong>Equip your toolkit.</strong>&nbsp; Resume, cover letters, keywords, training gaps.</div>
+    <div class="step" data-step="2"><span class="n">2.</span><strong>Map your lane.</strong>&nbsp; Align roles, industries, and constraints (time, location).</div>
+    <div class="step" data-step="1"><span class="n">1.</span><strong>Confirm your aim.</strong>&nbsp; Define goals anchored in NOVA’s strengths snapshot.</div>
   </div>
-  <p class="small">Right edges aligned as requested — each step ends flush against a “wall”.</p>
+  <p class="small">Right edges aligned — Step 1 sits at the bottom and steps ascend to Step 4.</p>
   <div class="flow-nav">
     <span></span>
     <a class="button" href="strategy.html">Next: Strategy</a>
   </div>
 </section>
-
-  </main>
+</main>
   <footer>Navi by NOVA — purpose → strategy → execution. Stay steady. ✨</footer>
 </body>
 </html>
