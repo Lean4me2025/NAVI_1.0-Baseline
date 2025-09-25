@@ -1,44 +1,21 @@
-*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b1220;color:#eef3ff}
-a{color:inherit;text-decoration:none}
-.container{max-width:1100px;margin:0 auto;padding:24px}
-.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
-.brand{font-weight:800;letter-spacing:.5px}
-.badge{padding:6px 10px;border:1px solid #24304a;border-radius:8px;background:#121b2f;color:#c7d3ff}
-h1,h2,h3{margin:8px 0 12px}
-.card{background:#0f182b;border:1px solid #1f2b46;border-radius:16px;padding:20px;box-shadow:0 1px 0 #091022}
-.grid{display:grid;gap:12px}
-.grid.traits{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
-.trait{padding:12px 14px;border:1px solid #2a395e;border-radius:12px;background:#0c1324;cursor:pointer;transition:transform .08s ease, box-shadow .08s ease}
-.trait:hover{transform:translateY(-1px)}
-.trait.selected{border-color:#d7e3ff;background:#1a2a52;box-shadow:0 0 0 2px #d7e3ff inset}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
-.btn{padding:12px 16px;border:1px solid #2a395e;border-radius:12px;background:#121b2f;color:#e9f0ff;cursor:pointer;font-weight:600}
-.btn:disabled{opacity:.4;cursor:not-allowed}
-.btn.primary{border-color:#d7e3ff;background:#d7e3ff;color:#101a33}
-.btn.ghost{background:transparent}
-.kicker{opacity:.8;font-size:14px}
-.footer{opacity:.7;padding:20px;text-align:center}
-.stepper{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 20px}
-.step{padding:6px 10px;border:1px solid #2a395e;border-radius:999px;font-size:12px;opacity:.85}
-.step.active{border-color:#d7e3ff;background:#1a2a52}
-blockquote{margin:0;padding:12px 16px;border-left:3px solid #2a395e;background:#0f1728;border-radius:8px}
-.list{list-style:none;margin:0;padding:0}
-.role{padding:12px;border:1px solid #223255;border-radius:12px;background:#0e1931}
-.payhip{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px}
-.payhip .card{flex:1;min-width:260px}
-hr{border:none;border-top:1px solid #1f2b46;margin:18px 0}
-.notice{font-size:13px;opacity:.8}
-.small{font-size:12px;opacity:.8}
-.selectable{cursor:pointer}
-.callout{border:1px dashed #41558b;border-radius:12px;padding:12px;background:#0e1830}
-.tag{display:inline-block;padding:3px 8px;border:1px solid #3b4f84;border-radius:999px;margin-right:6px;margin-top:6px;font-size:12px;opacity:.9}
-.banner{padding:10px 12px;border:1px solid #3b4f84;border-radius:10px;background:#0e1830;margin:8px 0}
-.code{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;font-size:12px}
 
-/* v1.4 additions */
-input[type="email"], input[type="text"]{
-  width:100%;padding:12px;border-radius:10px;border:1px solid #2a395e;background:#0c1324;color:#e9f0ff
-}
-.header-actions{display:flex;gap:8px;align-items:center}
-.badge.success{border-color:#39b46b;background:#103222;color:#c8f3d9}
-    
+body{margin:0;background:#0c1324;color:#e9f0ff;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto}
+.container{max-width:1100px;margin:24px auto;padding:0 16px}
+.card{background:#0f1830;border:1px solid #243559;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 0 0 1px rgba(0,0,0,.1)}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.brand{font-weight:800}
+.badge{border:1px solid #243559;border-radius:999px;padding:6px 10px;font-size:12px;opacity:.9}
+.btn{border:1px solid #243559;background:#122043;color:#e9f0ff;border-radius:12px;padding:8px 12px;cursor:pointer}
+.btn.primary{background:#1d3a6a}
+.banner{border:1px dashed #243559;border-radius:12px;padding:10px 12px;margin:8px 0;color:#9fb7ff}
+.grid.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:10px}
+.trait{border:1px solid #243559;border-radius:12px;padding:10px;cursor:pointer;text-align:center}
+.trait.selected{outline:2px solid #2dbb6a;box-shadow:0 0 0 2px #2dbb6a inset;background:#0d1c2d}
+.tag{border:1px solid #243559;border-radius:999px;padding:2px 8px;font-size:12px;margin-right:6px}
+.list{list-style:none;margin:0;padding:0}
+.role{border-bottom:1px solid #243559;padding:10px 0}
+.kicker{opacity:.85}
+.small{opacity:.75;font-size:13px}
+.payhip a{color:#9ff0b3}
+.flex{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.category-chip{border:1px solid #d4af37;color:#f6e6a9;background:#161d33;border-radius:999px;padding:4px 10px;font-size:12px}

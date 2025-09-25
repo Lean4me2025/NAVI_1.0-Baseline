@@ -1,0 +1,187 @@
+[
+  {
+    "category": "Health & Social Care",
+    "example_jobs": [
+      "Bioengineers and Biomedical Engineers",
+      "Community Health Workers",
+      "Credit Counselors",
+      "Dental and Ophthalmic Laboratory Technicians and Medical Appliance Technicians",
+      "Diagnostic Medical Sonographers",
+      "Genetic Counselors",
+      "Health and Safety Engineers",
+      "Health Education Specialists"
+    ],
+    "aligned_traits": [
+      {
+        "id": "t03",
+        "name": "Empathetic"
+      },
+      {
+        "id": "t30",
+        "name": "Patient"
+      },
+      {
+        "id": "t11",
+        "name": "Resilient"
+      },
+      {
+        "id": "t16",
+        "name": "Service-Oriented"
+      },
+      {
+        "id": "t07",
+        "name": "Communicator"
+      }
+    ]
+  },
+  {
+    "category": "Education & Community",
+    "example_jobs": [
+      "Adult Basic and Secondary Education and ESL Teachers",
+      "Athletic Trainers",
+      "Career and Technical Education Teachers",
+      "Coaches and Scouts",
+      "Fitness Trainers and Instructors",
+      "High School Teachers",
+      "Kindergarten and Elementary School Teachers",
+      "Librarians and Library Media Specialists"
+    ],
+    "aligned_traits": [
+      {
+        "id": "t07",
+        "name": "Communicator"
+      },
+      {
+        "id": "t29",
+        "name": "Adaptable"
+      }
+    ]
+  },
+  {
+    "category": "Business, Sales & Service",
+    "example_jobs": [
+      "Administrative Services and Facilities Managers",
+      "Advertising, Promotions, and Marketing Managers",
+      "Advertising Sales Agents",
+      "Anthropologists and Archeologists",
+      "Architectural and Engineering Managers",
+      "Compensation and Benefits Managers",
+      "Computer and Information Systems Managers",
+      "Construction Managers"
+    ],
+    "aligned_traits": [
+      {
+        "id": "t24",
+        "name": "Strategic"
+      },
+      {
+        "id": "t31",
+        "name": "Energetic"
+      },
+      {
+        "id": "t25",
+        "name": "Persuasive"
+      },
+      {
+        "id": "t33",
+        "name": "Customer-Focused"
+      },
+      {
+        "id": "t07",
+        "name": "Communicator"
+      }
+    ]
+  },
+  {
+    "category": "Technology, Engineering & Technical",
+    "example_jobs": [
+      "Aerospace Engineering and Operations Technologists and Technicians",
+      "Aerospace Engineers",
+      "Agricultural and Food Science Technicians",
+      "Agricultural Engineers",
+      "Aircraft and Avionics Equipment Mechanics and Technicians",
+      "Architects",
+      "Automotive Service Technicians and Mechanics",
+      "Biological Technicians"
+    ],
+    "aligned_traits": [
+      {
+        "id": "t01",
+        "name": "Analytical"
+      },
+      {
+        "id": "t04",
+        "name": "Detail-Oriented"
+      },
+      {
+        "id": "t17",
+        "name": "Technical"
+      }
+    ]
+  },
+  {
+    "category": "Skilled Trades & Operations",
+    "example_jobs": [
+      "Carpenters",
+      "Construction Equipment Operators",
+      "Electricians",
+      "Film and Video Editors and Camera Operators",
+      "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+      "Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights",
+      "Machinists and Tool and Die Makers",
+      "Material Moving Machine Operators"
+    ],
+    "aligned_traits": [
+      {
+        "id": "t14",
+        "name": "Hands-On"
+      }
+    ]
+  },
+  {
+    "category": "Creative, Media & Design",
+    "example_jobs": [
+      "Craft and Fine Artists",
+      "Editors",
+      "Fashion Designers",
+      "Floral Designers",
+      "Graphic Designers",
+      "Industrial Designers",
+      "Insurance Underwriters",
+      "Interior Designers"
+    ],
+    "aligned_traits": [
+      {
+        "id": "t02",
+        "name": "Creative"
+      },
+      {
+        "id": "t27",
+        "name": "Independent"
+      },
+      {
+        "id": "t23",
+        "name": "Design-Thinking"
+      }
+    ]
+  },
+  {
+    "category": "Public Safety, Transportation & Society",
+    "example_jobs": [
+      "Bus Drivers",
+      "Firefighters",
+      "Fire Inspectors",
+      "Heavy and Tractor-trailer Truck Drivers",
+      "Information Security Analysts",
+      "Police and Detectives",
+      "Postal Service Workers",
+      "Security Guards and Gambling Surveillance Officers"
+    ],
+    "aligned_traits": [
+      {
+        "id": "t26",
+        "name": "Ethical"
+      }
+    ]
+  }
+]
