@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Nova Snapshot</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script type="module">
+    import { readTraits, go } from './assets/app.js';
+    window.addEventListener('DOMContentLoaded', () => {
+      const box = document.getElementById('traits');
+      const traits = readTraits();
+      if (!traits.length) {
+        box.innerHTML = '<div class="notice">No traits selected yet. Go back and pick a few.</div>';
+        document.getElementById('toReflect').disabled = true;
+      } else {
+        box.innerHTML = traits.map(t => `<span class="kicker" style="display:inline-block;margin:6px 6px 0 0;">${t}</span>`).join('');
+      }
+    });
+    window.next = () => go('reflection.html');
+    window.back = () => history.back();
+  </script>
+<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
+</head>
+<body>
+
+  <div class="topnav">
+    <div class="wrap">
+      <div class="brand">NOVA + NAVI</div>
+      <div>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="javascript:void(0)" onclick="logout()">Exit</a>
+      </div>
+    </div>
+  </div>
+    
+  <header class="site">
+    <h1>Nova Snapshot</h1>
+    <p>Here’s a quick view of what you picked.</p>
+  </header>
+  <main class="container">
+    <div class="card">
+      <h2>Selected Traits</h2>
+      <div id="traits" style="margin-top:8px;"></div>
+      <hr class="sep" />
+      <div class="small">These guide the roles we’ll surface next, so you can move forward with clarity.</div>
+    </div>
+    <div class="footer-nav">
+      <button class="btn secondary" onclick="back()">← Back</button>
+      <button id="toReflect" class="btn" onclick="next()">Continue to Reflection →</button>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Select Your Traits</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script type="module">
+    import { saveTraits, readTraits, go } from './assets/app.js';
+    window.addEventListener('DOMContentLoaded', () => {
+      // restore any saved traits
+      const saved = new Set(readTraits());
+      document.querySelectorAll('input[type=checkbox]').forEach(cb => {
+        cb.checked = saved.has(cb.value);
+      });
+      enableIfAny();
+    });
+    function enableIfAny() {
+      const any = [...document.querySelectorAll('input[type=checkbox]:checked')].length > 0;
+      document.getElementById('seeResults').disabled = !any;
+    }
+    window.onPick = () => enableIfAny();
+    window.next = () => {
+      const picks = [...document.querySelectorAll('input[type=checkbox]:checked')].map(i => i.value);
+      saveTraits(picks);
+      go('results.html');
+    };
+    window.clearSel = () => {
+      document.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
+      enableIfAny();
+      saveTraits([]);
+    }
+  </script>
+<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
+</head>
+<body>
+
+  <div class="topnav">
+    <div class="wrap">
+      <div class="brand">NOVA + NAVI</div>
+      <div>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="javascript:void(0)" onclick="logout()">Exit</a>
+      </div>
+    </div>
+  </div>
+    
+  <header class="site">
+    <h1>Traits</h1>
+    <p>Pick the traits that sound most like you.</p>
+  </header>
+  <main class="container">
+    <div class="grid three">
+      <!-- A representative subset; your full set can replace these in the same structure -->
+      
+  <label class="chk card">
+    <input type="checkbox" value="Analytical" onclick="onPick()" />
+    <span>Analytical</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Creative" onclick="onPick()" />
+    <span>Creative</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Empathetic" onclick="onPick()" />
+    <span>Empathetic</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Detail-Oriented" onclick="onPick()" />
+    <span>Detail-Oriented</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Visionary" onclick="onPick()" />
+    <span>Visionary</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Problem Solver" onclick="onPick()" />
+    <span>Problem Solver</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Team Leader" onclick="onPick()" />
+    <span>Team Leader</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Independent" onclick="onPick()" />
+    <span>Independent</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Adaptable" onclick="onPick()" />
+    <span>Adaptable</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Strategic" onclick="onPick()" />
+    <span>Strategic</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Communicator" onclick="onPick()" />
+    <span>Communicator</span>
+  </label>
+  
+
+  <label class="chk card">
+    <input type="checkbox" value="Organizer" onclick="onPick()" />
+    <span>Organizer</span>
+  </label>
+  
+    </div>
+    <div class="footer-nav">
+      <button class="btn secondary" onclick="clearSel()">Clear Selections</button>
+      <button id="seeResults" class="btn" onclick="next()" disabled>See My Results →</button>
+    </div>
+  </main>
+</body>
+</html>

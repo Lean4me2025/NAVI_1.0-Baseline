@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Signed Out</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
+</head>
+<body>
+  <header class="site">
+    <h1>You're signed out</h1>
+    <p>For your privacy, this session has been closed and local data cleared.</p>
+  </header>
+  <main class="container">
+    <div class="card">
+      <p class="small">On a public computer? You're safe to leave now.</p>
+      <hr class="sep" />
+      <div class="grid two">
+        <div>
+          <h3>Return later</h3>
+          <p>When you’re ready to resume, go to <strong>Login</strong> and enter your email, then open the <strong>Dashboard</strong>.</p>
+          <a class="btn" href="login.html">Go to Login</a>
+        </div>
+        <div>
+          <h3>Start fresh</h3>
+          <p>Want to begin again? Start with Nova to select traits and rebuild your plan.</p>
+          <a class="btn secondary" href="index.html">Start with Nova</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reflection</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script type="module">
+    import { saveReflection, readReflection, go } from './assets/app.js';
+    window.addEventListener('DOMContentLoaded', () => {
+      const saved = readReflection();
+      if (saved) {
+        const el = document.querySelector(`input[value="${saved}"]`);
+        if (el) el.checked = true;
+        enable();
+      }
+    });
+    function enable() {
+      const picked = document.querySelector('input[name=where]:checked');
+      document.getElementById('goPlans').disabled = !picked;
+    }
+    window.pick = () => enable();
+    window.next = () => {
+      const picked = document.querySelector('input[name=where]:checked');
+      if (!picked) return;
+      saveReflection(picked.value);
+      go('review-plans.html');
+    };
+    window.back = () => history.back();
+  </script>
+<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
+</head>
+<body>
+
+  <div class="topnav">
+    <div class="wrap">
+      <div class="brand">NOVA + NAVI</div>
+      <div>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="javascript:void(0)" onclick="logout()">Exit</a>
+      </div>
+    </div>
+  </div>
+    
+  <header class="site">
+    <h1>Reflection</h1>
+    <p>Where are you starting from today?</p>
+  </header>
+  <main class="container">
+    <div class="grid two">
+      <label class="chk card"><input type="radio" name="where" value="Exploring purpose" onclick="pick()"><span>Exploring purpose</span></label>
+      <label class="chk card"><input type="radio" name="where" value="Clarified purpose, need direction" onclick="pick()"><span>Clarified purpose, need direction</span></label>
+      <label class="chk card"><input type="radio" name="where" value="Ready to job hunt" onclick="pick()"><span>Ready to job hunt</span></label>
+      <label class="chk card"><input type="radio" name="where" value="Upskilling for a role" onclick="pick()"><span>Upskilling for a role</span></label>
+    </div>
+    <div class="footer-nav">
+      <button class="btn secondary" onclick="back()">← Back</button>
+      <button id="goPlans" class="btn" onclick="next()" disabled>Review Plans →</button>
+    </div>
+  </main>
+</body>
+</html>

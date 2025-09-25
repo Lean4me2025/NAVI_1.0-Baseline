@@ -1,52 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Navi — Welcome</title>
-  <link rel="stylesheet" href="assets/styles.css"/>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome to NOVA</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script type="module">
+    import { go } from './assets/app.js';
+    window.next = () => go('traits.html');
+  </script>
+<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
 </head>
 <body>
 
-<header class="site">
-  <nav class="nav">
-    <a href="index.html" class="active">Welcome</a><a href="strategy.html">Strategy</a><a href="dashboard.html">Dashboard</a>
-    <span class="spacer"></span>
-    <a href="plans.html" class="cta">Review Plans</a>
-  </nav>
-</header>
-
+  <div class="topnav">
+    <div class="wrap">
+      <div class="brand">NOVA + NAVI</div>
+      <div>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="javascript:void(0)" onclick="logout()">Exit</a>
+      </div>
+    </div>
+  </div>
+    
+  <header class="site">
+    <h1>Welcome to NOVA</h1>
+    <p>Discover purpose. Align strengths. Step into NAVI.</p>
+  </header>
   <main class="container">
-<div class="card">
-  <h1 class="display">Welcome to <span style="color: var(--accent)">Navi</span></h1>
-  <p class="lead">Your strategy guide, built on your NOVA traits. We turn purpose into a concrete plan with roles, skills, and next actions.</p>
-  <div class="kpis">
-    <div class="kpi"><strong>Rooted in NOVA:</strong> 50‑trait snapshot</div>
-    <div class="kpi"><strong>Strategy First:</strong> Five W’s + How</div>
-    <div class="kpi"><strong>Action:</strong> dashboard with tasks & assets</div>
-  </div>
-  <div class="actions">
-    <a class="button" href="strategy.html">Start My Strategy</a>
-  </div>
-</div>
-
-<section class="section">
-  <div class="badge">How Navi works</div>
-  <h2>From who you are → to what you do</h2>
-  <div class="stairs">
-    <div class="step" data-step="4"><span class="n">4.</span><strong>Execute & iterate.</strong>&nbsp; Apply, track, refine — repeat until offer.</div>
-    <div class="step" data-step="3"><span class="n">3.</span><strong>Equip your toolkit.</strong>&nbsp; Resume, cover letters, keywords, training gaps.</div>
-    <div class="step" data-step="2"><span class="n">2.</span><strong>Map your lane.</strong>&nbsp; Align roles, industries, and constraints (time, location).</div>
-    <div class="step" data-step="1"><span class="n">1.</span><strong>Confirm your aim.</strong>&nbsp; Define goals anchored in NOVA’s strengths snapshot.</div>
-  </div>
-  <p class="small">Right edges aligned — Step 1 sits at the bottom and steps ascend to Step 4.</p>
-  <div class="flow-nav">
-    <span></span>
-    <a class="button" href="strategy.html">Next: Strategy</a>
-  </div>
-</section>
-</main>
-  <footer>Navi by NOVA — purpose → strategy → execution. Stay steady. ✨</footer>
+    <div class="card center">
+      <p>Start with a quick set of traits. We’ll show aligned roles, then reflect and build your path in NAVI.</p>
+      <div style="margin-top:14px;">
+        <button class="btn" onclick="next()">Start with Nova →</button>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
