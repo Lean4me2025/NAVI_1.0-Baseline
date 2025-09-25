@@ -1,14 +1,52 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Dashboard</title><link rel="stylesheet" href="assets/styles.css"/></head>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Navi — Dashboard</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+
+</head>
 <body>
+
 <header class="site">
   <nav class="nav container">
-    <a href="index.html">Welcome</a>
-    <a href="strategy.html">Strategy</a>
-    <a href="dashboard.html" class="active">Dashboard</a>
-    <a href="plans.html">Plans</a>
+    <a href="index.html">Welcome</a><a href="strategy.html">Strategy</a><a href="dashboard.html" class="active">Dashboard</a><a href="plans.html">Plans</a>
   </nav>
 </header>
-<main class="container"><h1>Dashboard</h1><a href='strategy.html'>Back</a> <a href='plans.html'>Next</a></main><footer>Navi Flow Footer</footer></body></html>
+
+  <main class="container">
+
+<h1 class="display">Action Center</h1>
+<p class="lead">Your next three moves, always visible.</p>
+<div class="grid section">
+  <div class="card" style="grid-column: span 6;">
+    <h3>Today</h3>
+    <ul class="clean">
+      <li>Finish resume draft for <em>Target Role A</em></li>
+      <li>Generate 1 tailored cover letter</li>
+      <li>Apply to 3 curated postings</li>
+    </ul>
+  </div>
+  <div class="card" style="grid-column: span 6;">
+    <h3>Assets</h3>
+    <ul class="clean">
+      <li>Resume Builder</li>
+      <li>Cover Letter Generator</li>
+      <li>Saved roles & companies</li>
+    </ul>
+  </div>
+  <div class="card" style="grid-column: span 12;">
+    <div class="badge">Reality check</div>
+    <p class="small">Applications → interviews → offers improves with steady cadence. Stay consistent and iterate based on signals.</p>
+  </div>
+</div>
+<div class="flow-nav">
+  <a class="button secondary" href="strategy.html">Back: Strategy</a>
+  <a class="button" href="plans.html">Next: Plans</a>
+</div>
+
+  </main>
+  <footer>Navi by NOVA — purpose → strategy → execution. Stay steady. ✨</footer>
+</body>
+</html>
