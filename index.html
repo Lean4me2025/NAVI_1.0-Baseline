@@ -3,39 +3,55 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Welcome to NOVA</title>
-  <link rel="stylesheet" href="assets/styles.v164.css?v=164" />
-  <script type="module">
-    import { go } from './assets/app.js';
-    window.next = () => go('traits.html');
+  <title>Welcome · NOVA</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+  <script>
+    // Reset state every time you land here to satisfy 'fresh each session'
+    document.addEventListener('DOMContentLoaded', () => App.reset());
   </script>
-<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
-<style>/* fallback-color */ body{background:#ecf3ff !important;}</style>
 </head>
 <body>
 
-  <div class="topnav">
-    <div class="wrap">
-      <div class="brand">NOVA + NAVI</div>
-      <div>
-        <a href="login.html">Login</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="javascript:void(0)" onclick="logout()">Exit</a>
-      </div>
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>N O V A · N A V I</div>
     </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="traits.html">Discover</a>
+      <a href="results.html">My Snapshot</a>
+      <a href="reflection.html">Reflect</a>
+      <a href="offers.html">Plans</a>
+      <a href="navi/welcome.html">Build</a>
+    </nav>
   </div>
-    
-  <header class="site">
-    <h1>Welcome to NOVA</h1>
-    <p>Discover purpose. Align strengths. Step into NAVI.</p>
-  </header>
+</header>
+
   <main class="container">
-    <div class="card center">
-      <p>Start with a quick set of traits. We’ll show aligned roles, then reflect and build your path in NAVI.</p>
-      <div style="margin-top:14px;">
-        <button class="btn" onclick="next()">Start with Nova →</button>
+    <div class="card" style="margin-top:18px;">
+      <h1 style="margin:0 0 8px;">Welcome to <span style="letter-spacing:1px;">N O V A</span></h1>
+      <p class="small" style="margin-top:0;">Discover your purpose-aligned strengths and move into action with Navi.</p>
+      <div class="info" style="margin-top:16px;">
+        <p style="margin:0;">
+          <strong>89% of people aren’t operating in their core purpose.</strong><br/>
+          Nova helps you surface your top strengths through 50 carefully-curated traits. Your results are then matched to the skills and requirements of more than 400 career paths to produce a <em>focused</em> list of roles where your strengths are already aligned.
+        </p>
+      </div>
+      <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
+        <button class="button" onclick="App.go('traits.html')">Start with Nova</button>
+        <a class="button secondary" href="navi/welcome.html">Skip to Navi</a>
       </div>
     </div>
   </main>
+
+<footer class="footer">
+  <div class="container">
+    Nova + Navi · Purpose → Path · © 2025
+  </div>
+</footer>
+
 </body>
 </html>

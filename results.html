@@ -3,54 +3,64 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Nova Snapshot</title>
-  <link rel="stylesheet" href="assets/styles.v164.css?v=164" />
-  <script type="module">
-    import { readTraits, go } from './assets/app.js';
-    window.addEventListener('DOMContentLoaded', () => {
-      const box = document.getElementById('traits');
-      const traits = readTraits();
-      if (!traits.length) {
-        box.innerHTML = '<div class="notice">No traits selected yet. Go back and pick a few.</div>';
-        document.getElementById('toReflect').disabled = true;
-      } else {
-        box.innerHTML = traits.map(t => `<span class="kicker" style="display:inline-block;margin:6px 6px 0 0;">${t}</span>`).join('');
-      }
+  <title>Results · NOVA</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script src="assets/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const traits = App.getTraits();
+      const list = document.querySelector('.pills');
+      if (traits.length === 0) { document.querySelector('#empty').classList.remove('hidden'); }
+      traits.forEach(t => {
+        const span = document.createElement('span');
+        span.className = 'pill';
+        span.textContent = t;
+        list.appendChild(span);
+      });
+      document.querySelector('#next').addEventListener('click', () => App.go('reflection.html'));
     });
-    window.next = () => go('reflection.html');
-    window.back = () => history.back();
   </script>
-<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
-<style>/* fallback-color */ body{background:#ecf3ff !important;}</style>
 </head>
 <body>
 
-  <div class="topnav">
-    <div class="wrap">
-      <div class="brand">NOVA + NAVI</div>
-      <div>
-        <a href="login.html">Login</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="javascript:void(0)" onclick="logout()">Exit</a>
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>N O V A · N A V I</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="traits.html">Discover</a>
+      <a href="results.html">My Snapshot</a>
+      <a href="reflection.html">Reflect</a>
+      <a href="offers.html">Plans</a>
+      <a href="navi/welcome.html">Build</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <div class="card" style="margin-top:18px;">
+      <div class="section-title">Your Snapshot</div>
+      <div class="info">
+        <p style="margin:0;">
+          These results reflect your current strengths. We compare your profile to the skills and requirements across 400+ career paths to create a focused list of aligned roles—so next steps aren’t random; they’re targeted.
+        </p>
+      </div>
+      <div id="empty" class="small hidden" style="margin-top:10px;">No traits selected. <a href="traits.html">Choose traits</a> to generate your snapshot.</div>
+      <div class="pills" style="margin-top:12px;"></div>
+      <div style="margin-top:18px;">
+        <button id="next" class="button">Continue to Reflection</button>
       </div>
     </div>
-  </div>
-    
-  <header class="site">
-    <h1>Nova Snapshot</h1>
-    <p>Here’s a quick view of what you picked.</p>
-  </header>
-  <main class="container">
-    <div class="card">
-      <h2>Selected Traits</h2>
-      <div id="traits" style="margin-top:8px;"></div>
-      <hr class="sep" />
-      <div class="small">These guide the roles we’ll surface next, so you can move forward with clarity.</div>
-    </div>
-    <div class="footer-nav">
-      <button class="btn secondary" onclick="back()">← Back</button>
-      <button id="toReflect" class="btn" onclick="next()">Continue to Reflection →</button>
-    </div>
   </main>
+
+<footer class="footer">
+  <div class="container">
+    Nova + Navi · Purpose → Path · © 2025
+  </div>
+</footer>
+
 </body>
 </html>

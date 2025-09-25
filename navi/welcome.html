@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navi · Welcome</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <script src="../assets/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const plan = App.getPlan();
+      const el = document.querySelector('#plan');
+      el.textContent = plan ? plan.charAt(0).toUpperCase() + plan.slice(1) : 'No plan selected yet';
+      document.querySelector('#start').addEventListener('click', () => App.go('strategy.html'));
+    });
+  </script>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>N O V A · N A V I</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="traits.html">Discover</a>
+      <a href="results.html">My Snapshot</a>
+      <a href="reflection.html">Reflect</a>
+      <a href="offers.html">Plans</a>
+      <a href="welcome.html">Build</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <div class="card" style="margin-top:18px;">
+      <h1 style="margin:0;">Welcome to NAVI</h1>
+      <p class="small" style="margin-top:6px;">Your selected plan: <strong id="plan">Loading…</strong></p>
+      <div class="info" style="margin-top:14px;">
+        <p style="margin:0;">
+          Navi turns Nova’s insight into action: resume & cover letter builders, aligned roles, training gaps → prioritized plan, and clear next steps. Persistence over panic.
+        </p>
+      </div>
+      <div style="margin-top:16px;">
+        <button id="start" class="button">Start My Strategy</button>
+      </div>
+    </div>
+  </main>
+
+<footer class="footer">
+  <div class="container">
+    Nova + Navi · Purpose → Path · © 2025
+  </div>
+</footer>
+
+</body>
+</html>

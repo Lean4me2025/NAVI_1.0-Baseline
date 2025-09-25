@@ -3,62 +3,72 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Reflection</title>
-  <link rel="stylesheet" href="assets/styles.v164.css?v=164" />
-  <script type="module">
-    import { saveReflection, readReflection, go } from './assets/app.js';
-    window.addEventListener('DOMContentLoaded', () => {
-      const saved = readReflection();
-      if (saved) {
-        const el = document.querySelector(`input[value="${saved}"]`);
-        if (el) el.checked = true;
-        enable();
-      }
+  <title>Reflect · NOVA</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script src="assets/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const choices = document.querySelectorAll('.choice');
+      const btn = document.querySelector('#continue');
+      choices.forEach(c => {
+        c.addEventListener('click', () => {
+          choices.forEach(x => x.classList.remove('selected'));
+          c.classList.add('selected');
+          App.setReflection(c.dataset.value);
+          btn.disabled = false;
+        });
+      });
+      btn.addEventListener('click', () => App.go('offers.html'));
     });
-    function enable() {
-      const picked = document.querySelector('input[name=where]:checked');
-      document.getElementById('goPlans').disabled = !picked;
-    }
-    window.pick = () => enable();
-    window.next = () => {
-      const picked = document.querySelector('input[name=where]:checked');
-      if (!picked) return;
-      saveReflection(picked.value);
-      go('review-plans.html');
-    };
-    window.back = () => history.back();
   </script>
-<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
-<style>/* fallback-color */ body{background:#ecf3ff !important;}</style>
 </head>
 <body>
 
-  <div class="topnav">
-    <div class="wrap">
-      <div class="brand">NOVA + NAVI</div>
-      <div>
-        <a href="login.html">Login</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="javascript:void(0)" onclick="logout()">Exit</a>
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>N O V A · N A V I</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="traits.html">Discover</a>
+      <a href="results.html">My Snapshot</a>
+      <a href="reflection.html">Reflect</a>
+      <a href="offers.html">Plans</a>
+      <a href="navi/welcome.html">Build</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <div class="card" style="margin-top:18px;">
+      <div class="section-title">Where are you starting from today?</div>
+      <div class="choices">
+        <div class="choice" data-value="exploring">
+          <strong>Exploring</strong><br><span class="small">I need clarity on direction and roles.</span>
+        </div>
+        <div class="choice" data-value="ready_to_apply">
+          <strong>Ready to Apply</strong><br><span class="small">I know my path—let’s build resume & cover letters.</span>
+        </div>
+        <div class="choice" data-value="upskilling">
+          <strong>Upskilling</strong><br><span class="small">I see gaps—help me train & certify.</span>
+        </div>
+        <div class="choice" data-value="transitioning">
+          <strong>Transitioning</strong><br><span class="small">I’m switching fields and need a full plan.</span>
+        </div>
+      </div>
+      <div style="margin-top:16px;">
+        <button id="continue" class="button" disabled>Save & Continue</button>
       </div>
     </div>
-  </div>
-    
-  <header class="site">
-    <h1>Reflection</h1>
-    <p>Where are you starting from today?</p>
-  </header>
-  <main class="container">
-    <div class="grid two">
-      <label class="chk card"><input type="radio" name="where" value="Exploring purpose" onclick="pick()"><span>Exploring purpose</span></label>
-      <label class="chk card"><input type="radio" name="where" value="Clarified purpose, need direction" onclick="pick()"><span>Clarified purpose, need direction</span></label>
-      <label class="chk card"><input type="radio" name="where" value="Ready to job hunt" onclick="pick()"><span>Ready to job hunt</span></label>
-      <label class="chk card"><input type="radio" name="where" value="Upskilling for a role" onclick="pick()"><span>Upskilling for a role</span></label>
-    </div>
-    <div class="footer-nav">
-      <button class="btn secondary" onclick="back()">← Back</button>
-      <button id="goPlans" class="btn" onclick="next()" disabled>Review Plans →</button>
-    </div>
   </main>
+
+<footer class="footer">
+  <div class="container">
+    Nova + Navi · Purpose → Path · © 2025
+  </div>
+</footer>
+
 </body>
 </html>

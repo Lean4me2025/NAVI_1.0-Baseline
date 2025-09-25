@@ -3,134 +3,84 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Select Your Traits</title>
-  <link rel="stylesheet" href="assets/styles.v164.css?v=164" />
-  <script type="module">
-    import { saveTraits, readTraits, go } from './assets/app.js';
-    window.addEventListener('DOMContentLoaded', () => {
-      // restore any saved traits
-      const saved = new Set(readTraits());
-      document.querySelectorAll('input[type=checkbox]').forEach(cb => {
-        cb.checked = saved.has(cb.value);
+  <title>Traits · NOVA</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script src="assets/app.js"></script>
+  <script src="assets/traits.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Start fresh when entering traits
+      App.setTraits([]);
+      const grid = document.querySelector('.traits-grid');
+      const selectedEl = document.querySelector('#selectedCount');
+      const seeBtn = document.querySelector('#seeResults');
+      NOVA_TRAITS.forEach((t, i) => {
+        const div = document.createElement('div');
+        div.className = 'trait';
+        div.innerHTML = `<div class="name">${t}</div><div class="tag">#01${String(i+1).padStart(2,'0')}` + `</div>`;
+        div.addEventListener('click', () => {
+          div.classList.toggle('selected');
+          const current = App.getTraits();
+          if (div.classList.contains('selected')) {
+            current.push(t);
+          } else {
+            const idx = current.indexOf(t);
+            if (idx > -1) current.splice(idx,1);
+          }
+          App.setTraits(current);
+          selectedEl.textContent = App.getTraits().length;
+          seeBtn.disabled = App.getTraits().length === 0;
+        });
+        grid.appendChild(div);
       });
-      enableIfAny();
+      document.querySelector('#clear').addEventListener('click', () => {
+        document.querySelectorAll('.trait.selected').forEach(el => el.classList.remove('selected'));
+        App.setTraits([]);
+        selectedEl.textContent = '0';
+        seeBtn.disabled = true;
+      });
+      seeBtn.addEventListener('click', () => App.go('results.html'));
     });
-    function enableIfAny() {
-      const any = [...document.querySelectorAll('input[type=checkbox]:checked')].length > 0;
-      document.getElementById('seeResults').disabled = !any;
-    }
-    window.onPick = () => enableIfAny();
-    window.next = () => {
-      const picks = [...document.querySelectorAll('input[type=checkbox]:checked')].map(i => i.value);
-      saveTraits(picks);
-      go('results.html');
-    };
-    window.clearSel = () => {
-      document.querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
-      enableIfAny();
-      saveTraits([]);
-    }
   </script>
-<script type="module">import { logout } from './assets/app.js'; window.logout = logout;</script>
-<style>/* fallback-color */ body{background:#ecf3ff !important;}</style>
 </head>
 <body>
 
-  <div class="topnav">
-    <div class="wrap">
-      <div class="brand">NOVA + NAVI</div>
-      <div>
-        <a href="login.html">Login</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="javascript:void(0)" onclick="logout()">Exit</a>
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>N O V A · N A V I</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="traits.html">Discover</a>
+      <a href="results.html">My Snapshot</a>
+      <a href="reflection.html">Reflect</a>
+      <a href="offers.html">Plans</a>
+      <a href="navi/welcome.html">Build</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <div class="card" style="margin-top:18px;">
+      <div class="section-title">Select Your Traits</div>
+      <p class="small" style="margin-top:-6px;">Choose as many that feel true right now. Selections glow vividly so you can clearly see what’s chosen.</p>
+      <div class="traits-grid"></div>
+      <div style="display:flex; align-items:center; gap:12px; margin-top:16px; flex-wrap:wrap;">
+        <button id="clear" class="button secondary">Clear Selections</button>
+        <span class="small">Selected: <strong id="selectedCount">0</strong>/50</span>
+        <span class="small" style="opacity:.7;">(Brighter highlight = selected)</span>
+        <button id="seeResults" class="button" style="margin-left:auto;" disabled>See My Results</button>
       </div>
     </div>
-  </div>
-    
-  <header class="site">
-    <h1>Traits</h1>
-    <p>Pick the traits that sound most like you.</p>
-  </header>
-  <main class="container">
-    <div class="grid three">
-      <!-- A representative subset; your full set can replace these in the same structure -->
-      
-  <label class="chk card">
-    <input type="checkbox" value="Analytical" onclick="onPick()" />
-    <span>Analytical</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Creative" onclick="onPick()" />
-    <span>Creative</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Empathetic" onclick="onPick()" />
-    <span>Empathetic</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Detail-Oriented" onclick="onPick()" />
-    <span>Detail-Oriented</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Visionary" onclick="onPick()" />
-    <span>Visionary</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Problem Solver" onclick="onPick()" />
-    <span>Problem Solver</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Team Leader" onclick="onPick()" />
-    <span>Team Leader</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Independent" onclick="onPick()" />
-    <span>Independent</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Adaptable" onclick="onPick()" />
-    <span>Adaptable</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Strategic" onclick="onPick()" />
-    <span>Strategic</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Communicator" onclick="onPick()" />
-    <span>Communicator</span>
-  </label>
-  
-
-  <label class="chk card">
-    <input type="checkbox" value="Organizer" onclick="onPick()" />
-    <span>Organizer</span>
-  </label>
-  
-    </div>
-    <div class="footer-nav">
-      <button class="btn secondary" onclick="clearSel()">Clear Selections</button>
-      <button id="seeResults" class="btn" onclick="next()" disabled>See My Results →</button>
-    </div>
   </main>
+
+<footer class="footer">
+  <div class="container">
+    Nova + Navi · Purpose → Path · © 2025
+  </div>
+</footer>
+
 </body>
 </html>

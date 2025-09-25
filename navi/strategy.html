@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navi · Strategy</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <script src="../assets/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const traits = App.getTraits();
+      const ul = document.querySelector('#who');
+      traits.slice(0, 12).forEach(t => {
+        const li = document.createElement('li'); li.textContent = t; ul.appendChild(li);
+      });
+    });
+  </script>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>N O V A · N A V I</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="traits.html">Discover</a>
+      <a href="results.html">My Snapshot</a>
+      <a href="reflection.html">Reflect</a>
+      <a href="offers.html">Plans</a>
+      <a href="welcome.html">Build</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <div class="card" style="margin-top:18px;">
+      <div class="section-title">Five W’s + How</div>
+      <div class="info">
+        <p style="margin:0;">
+          This is your living strategy. We’ll refine as we build assets and apply.
+        </p>
+      </div>
+      <div class="card" style="margin-top:14px;">
+        <strong>Who</strong>
+        <ul id="who" class="small" style="margin-top:8px;"></ul>
+      </div>
+      <div class="card" style="margin-top:12px;">
+        <strong>What</strong>
+        <p class="small">Roles where these strengths typically thrive (to be expanded with your job targets).</p>
+      </div>
+      <div class="card" style="margin-top:12px;">
+        <strong>Why</strong>
+        <p class="small">The legacy and outcomes you care about most.</p>
+      </div>
+      <div class="card" style="margin-top:12px;">
+        <strong>When</strong>
+        <p class="small">Timing, training, certifications, market cycles.</p>
+      </div>
+      <div class="card" style="margin-top:12px;">
+        <strong>Where</strong>
+        <p class="small">Location preferences & flexibility.</p>
+      </div>
+      <div class="card" style="margin-top:12px;">
+        <strong>How</strong>
+        <p class="small">Use Navi tools: resume builder, cover letters, company intel, saved searches & alerts.</p>
+      </div>
+      <div style="margin-top:16px;">
+        <a class="button" href="../index.html">Back to Nova</a>
+      </div>
+    </div>
+  </main>
+
+<footer class="footer">
+  <div class="container">
+    Nova + Navi · Purpose → Path · © 2025
+  </div>
+</footer>
+
+</body>
+</html>

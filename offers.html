@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plans · NOVA → NAVI</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <!-- Payhip JS once -->
+  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // When a user clicks a plan, we store it and also let Payhip handle payment where applicable.
+      document.querySelectorAll('[data-plan]').forEach(btn => {
+        btn.addEventListener('click', () => App.setPlan(btn.getAttribute('data-plan')));
+      });
+      document.querySelectorAll('.to-navi').forEach(a => {
+        a.addEventListener('click', () => App.setPlan(a.getAttribute('data-plan') || ''));
+      });
+    });
+  </script>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>N O V A · N A V I</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="traits.html">Discover</a>
+      <a href="results.html">My Snapshot</a>
+      <a href="reflection.html">Reflect</a>
+      <a href="offers.html">Plans</a>
+      <a href="navi/welcome.html">Build</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <div class="card" style="margin-top:18px;">
+      <div class="section-title">Choose your path</div>
+      <div class="offers">
+        <!-- Pro Suite (Mastery) -->
+        <div class="offer card">
+          <h3>NAVI Pro Suite (Mastery)</h3>
+          <div class="price">$149 <span class="small">/ mo</span></div>
+          <div class="features">
+            Everything in Pro plus 1:1 coaching/premium support, career roadmap PDF, extended library, quarterly masterclass, early access.
+          </div>
+          <a href="https://payhip.com/b/re4Hy" class="payhip-buy-button button"
+             data-theme="green" data-product="re4Hy" data-plan="mastery" data-plan="mastery">Buy Now</a>
+          <a href="navi/welcome.html" class="button secondary to-navi" data-plan="mastery">I already purchased</a>
+        </div>
+        <!-- Purpose Book -->
+        <div class="offer card">
+          <h3>How to Know Your Purpose (Book)</h3>
+          <div class="price">$— <span class="small">one-time</span></div>
+          <div class="features">
+            Your on‑ramp to clarity and momentum. A practical, faith‑friendly guide without gatekeeping.
+          </div>
+          <a href="https://payhip.com/b/N7Lvg" class="payhip-buy-button button"
+             data-theme="green" data-product="N7Lvg" data-plan="book">Buy Now</a>
+        </div>
+        <!-- Hidden placeholders for Starter/Pro: only appear if IDs are later added in config (not shown to users now) -->
+        <div class="offer card hidden" id="starter-offer">
+          <h3>Starter</h3>
+          <div class="price">$29.99 <span class="small">/ mo</span></div>
+          <div class="features">Nova 50 traits + PDF, basic resume builder, job suggestions, 1 Pro doc preview/mo, Navi’s Golden Nugget.</div>
+          <button class="button" data-plan="starter">Buy</button>
+        </div>
+        <div class="offer card hidden" id="pro-offer">
+          <h3>Pro</h3>
+          <div class="price">$99 <span class="small">/ mo</span></div>
+          <div class="features">Everything in Starter plus resume rewrite AI, unlimited cover letters, company intel reports, advanced job filters, saved searches & alerts, priority support.</div>
+          <button class="button" data-plan="pro">Buy</button>
+        </div>
+      </div>
+      <div style="margin-top:18px;">
+        <a class="button secondary to-navi" data-plan="">Continue to Navi without purchase</a>
+      </div>
+    </div>
+  </main>
+
+<footer class="footer">
+  <div class="container">
+    Nova + Navi · Purpose → Path · © 2025
+  </div>
+</footer>
+
+</body>
+</html>
