@@ -6,31 +6,10 @@
   <title>Login</title>
   <link rel="stylesheet" href="assets/styles.css" />
   <script type="module">
-    
     import { setupOrVerifyPIN, setSession, currentUserEmail, restoreIfAny, wipeAccount } from './assets/app.js';
-    function accountExists(email){
-      try { return !!JSON.parse(localStorage.getItem('navi_account_' + email) || 'null'); } catch { return false; }
-    }
-    function checkEmail(){
-      const email = document.getElementById('email').value.trim().toLowerCase();
-      const banner = document.getElementById('firstTimeBanner');
-      const pinHelp = document.getElementById('pinHelp');
-      if(!email) { banner.style.display = 'none'; pinHelp.textContent = 'Enter your PIN.'; return; }
-      if(accountExists(email)){
-        banner.style.display = 'none';
-        pinHelp.textContent = 'Enter your existing PIN for this email.';
-      } else {
-        banner.style.display = 'block';
-        pinHelp.textContent = 'Create a new 4–6 digit PIN for this email.';
-      }
-    }
-
     window.addEventListener('DOMContentLoaded', () => {
       const cur = currentUserEmail();
-      const emailEl = document.getElementById('email');
-      if(cur){ emailEl.value = cur; }
-      emailEl.addEventListener('input', checkEmail);
-      checkEmail();
+      if(cur){ document.getElementById('email').value = cur; }
     });
     window.doLogin = async () => {
       const email = document.getElementById('email').value.trim().toLowerCase();
@@ -45,9 +24,6 @@
       setSession(email);
       // Try restore
       await restoreIfAny();
-      if(document.getElementById('firstTimeBanner').style.display === 'block'){
-        alert('PIN created. Keep it private — you will need it to unlock your data.');
-      }
       window.location.href = 'dashboard.html';
     };
     window.doWipe = () => {
@@ -64,7 +40,6 @@
 <body>
   <header class="site">
     <h1>Login</h1>
-    <p class="notice" id="firstTimeBanner" style="display:none; margin-top:10px;">First time on this device? Create a 4–6 digit PIN now. You’ll need it to unlock your data next time.</p>
     <p>Email + PIN keeps your info private on shared computers.</p>
   </header>
   <main class="container">
@@ -74,7 +49,6 @@
       <div style="height:8px"></div>
       <label>PIN (4–6 digits)</label>
       <input id="pin" type="password" inputmode="numeric" pattern="\d*" maxlength="6" placeholder="••••" style="width:200px; padding:12px; margin-top:6px; border:1px solid #e7eaf0; border-radius:10px;">
-      <div class="small" id="pinHelp" style="margin-top:6px;">Enter your PIN.</div>
       <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
         <button class="btn" onclick="doLogin()">Continue</button>
         <a class="btn secondary" href="index.html">Cancel</a>

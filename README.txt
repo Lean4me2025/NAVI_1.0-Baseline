@@ -59,8 +59,7 @@ To enable secure logins and resume across devices, connect an auth backend (e.g.
 ### Security & Limits
 - This protects privacy on shared/public machines but remains **device-specific**. To sync across devices and support PIN resets, integrate a backend (e.g., Supabase Auth + DB). The code is modular to swap in real auth.
 
-
-## v1.6.1 — First-login PIN guidance
-- The Login page now clearly prompts NEW users to **create a 4–6 digit PIN** the first time they use an email on a device.
-- Returning users see guidance to **enter their existing PIN**.
-- After first PIN creation, a confirmation alert reminds users to keep it private.
+## v1.6.2 — Visual parity release
+- Restored the exact visual theme from v1.6 (colors/headers/backgrounds).
+- Functionality unchanged: Email + PIN encrypted progress (AES-GCM), Exit page, Login, Dashboard, Review Plans (only Payhip page).
+- No CSS or layout changes beyond v1.6.
