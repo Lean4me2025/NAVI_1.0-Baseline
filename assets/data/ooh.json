@@ -1,0 +1,5613 @@
+[
+  {
+    "title": "Data Analyst",
+    "soc": "15-2051",
+    "traits_map": [
+      "Analytical",
+      "Numerate",
+      "Data Visualization",
+      "Communicator",
+      "Quality-Driven",
+      "Customer-Focused",
+      "Problem Solver",
+      "Systems Thinking"
+    ],
+    "skills": [],
+    "median_pay_usd": 80000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Analyze datasets to generate insights, reports, and recommendations for business decisions.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Data%20Analyst"
+  },
+  {
+    "title": "Software Developer",
+    "soc": "15-1252",
+    "traits_map": [
+      "Coding",
+      "Technical",
+      "Problem Solver",
+      "Analytical",
+      "Design-Thinking",
+      "Customer-Focused",
+      "Quality-Driven",
+      "Systems Thinking"
+    ],
+    "skills": [],
+    "median_pay_usd": 105000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Design, build, and maintain software applications and systems.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Software%20Developer"
+  },
+  {
+    "title": "UX Designer",
+    "soc": "15-1255",
+    "traits_map": [
+      "Design-Thinking",
+      "Customer-Focused",
+      "Creative",
+      "Communicator",
+      "Data Visualization",
+      "Writing",
+      "Problem Solver",
+      "Strategic"
+    ],
+    "skills": [],
+    "median_pay_usd": 100000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Create intuitive user experiences through research, prototyping, and design.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=UX%20Designer"
+  },
+  {
+    "title": "Project Manager",
+    "soc": "11-1021",
+    "traits_map": [
+      "Planning",
+      "Organizer",
+      "Leader",
+      "Communicator",
+      "Quality-Driven",
+      "Adaptable",
+      "Strategic",
+      "Time Management"
+    ],
+    "skills": [],
+    "median_pay_usd": 107500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Plan, organize, and oversee projects to ensure on-time and on-budget delivery.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Project%20Manager"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "soc": "15-1212",
+    "traits_map": [
+      "Security-Minded",
+      "Risk-Aware",
+      "Quality-Driven",
+      "Analytical",
+      "Numerate",
+      "Problem Solver",
+      "Technical",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 115000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Protect systems and data by monitoring threats, analyzing risks, and implementing controls.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Cybersecurity%20Analyst"
+  },
+  {
+    "title": "Mechanical Engineer",
+    "soc": "17-2141",
+    "traits_map": [
+      "Mechanical Aptitude",
+      "Hands-On",
+      "Analytical",
+      "Quality-Driven",
+      "Risk-Aware",
+      "Problem Solver",
+      "Numerate",
+      "Systems Thinking"
+    ],
+    "skills": [],
+    "median_pay_usd": 102500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Design and improve mechanical devices, systems, and processes.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Mechanical%20Engineer"
+  },
+  {
+    "title": "Industrial Engineer",
+    "soc": "17-2112",
+    "traits_map": [
+      "Planning",
+      "Quality-Driven",
+      "Analytical",
+      "Systems Thinking",
+      "Hands-On",
+      "Mechanical Aptitude",
+      "Problem Solver",
+      "Strategic"
+    ],
+    "skills": [],
+    "median_pay_usd": 102500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Optimize systems for quality, throughput, cost, and safety using data and lean methods.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Industrial%20Engineer"
+  },
+  {
+    "title": "Financial Analyst",
+    "soc": "13-2051",
+    "traits_map": [
+      "Financial Acumen",
+      "Analytical",
+      "Numerate",
+      "Strategic",
+      "Communicator",
+      "Quality-Driven",
+      "Problem Solver",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 95000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Evaluate financial data and trends to guide investment and business decisions.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Financial%20Analyst"
+  },
+  {
+    "title": "Registered Nurse",
+    "soc": "29-1141",
+    "traits_map": [
+      "Service-Oriented",
+      "Empathetic",
+      "Attention to Safety",
+      "Adaptable",
+      "Independent",
+      "Communicator",
+      "Patient",
+      "Quality-Driven"
+    ],
+    "skills": [],
+    "median_pay_usd": 92500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Provide patient care, education, and coordination across clinical settings.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Registered%20Nurse"
+  },
+  {
+    "title": "Teacher / Instructor",
+    "soc": "25-3097",
+    "traits_map": [
+      "Teaching",
+      "Communicator",
+      "Writing",
+      "Empathetic",
+      "Collaborative",
+      "Strategic",
+      "Coaching",
+      "Service-Oriented"
+    ],
+    "skills": [],
+    "median_pay_usd": 67500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Facilitate learning, develop curricula, and support student growth.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Teacher%20/%20Instructor"
+  },
+  {
+    "title": "Marketing Manager",
+    "soc": "11-2021",
+    "traits_map": [
+      "Persuasive",
+      "Creative",
+      "Communicator",
+      "Strategic",
+      "Customer-Focused",
+      "Writing",
+      "Negotiation",
+      "Entrepreneurial"
+    ],
+    "skills": [],
+    "median_pay_usd": 120000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Develop marketing strategy and campaigns to grow demand and brand.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Marketing%20Manager"
+  },
+  {
+    "title": "Sales Representative (B2B)",
+    "soc": "41-3091",
+    "traits_map": [
+      "Persuasive",
+      "Communicator",
+      "Negotiation",
+      "Customer-Focused",
+      "Energetic",
+      "Adaptable",
+      "Writing",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 85000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Engage clients, understand needs, and present solutions to close business.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Sales%20Representative%20(B2B)"
+  },
+  {
+    "title": "Graphic Designer",
+    "soc": "27-1024",
+    "traits_map": [
+      "Creative",
+      "Artistic",
+      "Data Visualization",
+      "Communicator",
+      "Customer-Focused",
+      "Design-Thinking",
+      "Writing",
+      "Problem Solver"
+    ],
+    "skills": [],
+    "median_pay_usd": 72500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Create visual concepts and assets for media, marketing, and product.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Graphic%20Designer"
+  },
+  {
+    "title": "Operations Manager",
+    "soc": "11-1021",
+    "traits_map": [
+      "Planning",
+      "Organizer",
+      "Leader",
+      "Quality-Driven",
+      "Strategic",
+      "Adaptable",
+      "Customer-Focused",
+      "Time Management"
+    ],
+    "skills": [],
+    "median_pay_usd": 122500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Oversee operations, people, and processes to achieve business goals.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Operations%20Manager"
+  },
+  {
+    "title": "Security Guard Supervisor",
+    "soc": "33-1091",
+    "traits_map": [
+      "Attention to Safety",
+      "Security-Minded",
+      "Quality-Driven",
+      "Leader",
+      "Planning",
+      "Adaptable",
+      "Collaborative",
+      "Risk-Aware"
+    ],
+    "skills": [],
+    "median_pay_usd": 62500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Lead guard teams, manage posts, and ensure safety/compliance.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Security%20Guard%20Supervisor"
+  },
+  {
+    "title": "Network Administrator",
+    "soc": "15-1244",
+    "traits_map": [
+      "Technical",
+      "Risk-Aware",
+      "Quality-Driven",
+      "Analytical",
+      "Numerate",
+      "Problem Solver",
+      "Security-Minded",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 92500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Maintain network infrastructure, performance, and security.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Network%20Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "soc": "15-1242",
+    "traits_map": [
+      "Numerate",
+      "Technical",
+      "Analytical",
+      "Quality-Driven",
+      "Problem Solver",
+      "Design-Thinking",
+      "Customer-Focused",
+      "Systems Thinking"
+    ],
+    "skills": [],
+    "median_pay_usd": 107500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Manage databases for availability, integrity, and performance.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Database%20Administrator"
+  },
+  {
+    "title": "Business Analyst",
+    "soc": "13-1111",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Planning",
+      "Communicator",
+      "Quality-Driven",
+      "Numerate",
+      "Customer-Focused",
+      "Problem Solver"
+    ],
+    "skills": [],
+    "median_pay_usd": 92500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Bridge stakeholders, requirements, and solutions to improve outcomes.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Business%20Analyst"
+  },
+  {
+    "title": "Human Resources Specialist",
+    "soc": "13-1071",
+    "traits_map": [
+      "Empathetic",
+      "Communicator",
+      "Collaborative",
+      "Quality-Driven",
+      "Strategic",
+      "Coaching",
+      "Customer-Focused",
+      "Adaptable"
+    ],
+    "skills": [],
+    "median_pay_usd": 80000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "Recruit, onboard, and support employees; manage policies and development.",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Human%20Resources%20Specialist"
+  },
+  {
+    "title": "Accountants and Auditors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 81680,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Accountants%20and%20Auditors"
+  },
+  {
+    "title": "Actors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 2023,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Actors"
+  },
+  {
+    "title": "Actuaries",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 125770,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Actuaries"
+  },
+  {
+    "title": "Administrative Services and Facilities Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 106880,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Administrative%20Services%20and%20Facilities%20Managers"
+  },
+  {
+    "title": "Adult Basic and Secondary Education and ESL Teachers",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 59950,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Adult%20Basic%20and%20Secondary%20Education%20and%20ESL%20Teachers"
+  },
+  {
+    "title": "Advertising, Promotions, and Marketing Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 159660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Advertising,%20Promotions,%20and%20Marketing%20Managers"
+  },
+  {
+    "title": "Advertising Sales Agents",
+    "soc": "",
+    "traits_map": [
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation"
+    ],
+    "skills": [],
+    "median_pay_usd": 61460,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Advertising%20Sales%20Agents"
+  },
+  {
+    "title": "Aerospace Engineering and Operations Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 79830,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Aerospace%20Engineering%20and%20Operations%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Aerospace Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 134830,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Aerospace%20Engineers"
+  },
+  {
+    "title": "Agricultural and Food Science Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 48480,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Agricultural%20and%20Food%20Science%20Technicians"
+  },
+  {
+    "title": "Agricultural and Food Scientists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 78770,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Agricultural%20and%20Food%20Scientists"
+  },
+  {
+    "title": "Agricultural Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 84630,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Agricultural%20Engineers"
+  },
+  {
+    "title": "Agricultural Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 35980,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Agricultural%20Workers"
+  },
+  {
+    "title": "Aircraft and Avionics Equipment Mechanics and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 79140,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Aircraft%20and%20Avionics%20Equipment%20Mechanics%20and%20Technicians"
+  },
+  {
+    "title": "Airline and Commercial Pilots",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 198100,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Airline%20and%20Commercial%20Pilots"
+  },
+  {
+    "title": "Air Traffic Controllers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 144580,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Air%20Traffic%20Controllers"
+  },
+  {
+    "title": "Animal Care and Service Workers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 33860,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Animal%20Care%20and%20Service%20Workers"
+  },
+  {
+    "title": "Announcers and DJs",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 2023,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Announcers%20and%20DJs"
+  },
+  {
+    "title": "Anthropologists and Archeologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 64910,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Anthropologists%20and%20Archeologists"
+  },
+  {
+    "title": "Arbitrators, Mediators, and Conciliators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 67710,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Arbitrators,%20Mediators,%20and%20Conciliators"
+  },
+  {
+    "title": "Architects",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 96690,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Architects"
+  },
+  {
+    "title": "Architectural and Engineering Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 167740,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Architectural%20and%20Engineering%20Managers"
+  },
+  {
+    "title": "Archivists, Curators, and Museum Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 57100,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Archivists,%20Curators,%20and%20Museum%20Workers"
+  },
+  {
+    "title": "Art Directors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 111040,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Art%20Directors"
+  },
+  {
+    "title": "Assemblers and Fabricators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 43570,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Assemblers%20and%20Fabricators"
+  },
+  {
+    "title": "Athletes and Sports Competitors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 62360,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Athletes%20and%20Sports%20Competitors"
+  },
+  {
+    "title": "Athletic Trainers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 60250,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Athletic%20Trainers"
+  },
+  {
+    "title": "Atmospheric Scientists, Including Meteorologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 97450,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Atmospheric%20Scientists,%20Including%20Meteorologists"
+  },
+  {
+    "title": "Audiologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 92120,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Audiologists"
+  },
+  {
+    "title": "Automotive Body and Glass Repairers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 50680,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Automotive%20Body%20and%20Glass%20Repairers"
+  },
+  {
+    "title": "Automotive Service Technicians and Mechanics",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 49670,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Automotive%20Service%20Technicians%20and%20Mechanics"
+  },
+  {
+    "title": "Bakers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 36650,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Bakers"
+  },
+  {
+    "title": "Barbers, Hairstylists, and Cosmetologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 35420,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Barbers,%20Hairstylists,%20and%20Cosmetologists"
+  },
+  {
+    "title": "Bartenders",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 33530,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Bartenders"
+  },
+  {
+    "title": "Bill and Account Collectors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46040,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Bill%20and%20Account%20Collectors"
+  },
+  {
+    "title": "Biochemists and Biophysicists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 103650,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Biochemists%20and%20Biophysicists"
+  },
+  {
+    "title": "Bioengineers and Biomedical Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 106950,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Bioengineers%20and%20Biomedical%20Engineers"
+  },
+  {
+    "title": "Biological Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 52000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Biological%20Technicians"
+  },
+  {
+    "title": "Boilermakers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 73340,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Boilermakers"
+  },
+  {
+    "title": "Bookkeeping, Accounting, and Auditing Clerks",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 49210,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Bookkeeping,%20Accounting,%20and%20Auditing%20Clerks"
+  },
+  {
+    "title": "Broadcast, Sound, and Video Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 56600,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Broadcast,%20Sound,%20and%20Video%20Technicians"
+  },
+  {
+    "title": "Budget Analysts",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 87930,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Budget%20Analysts"
+  },
+  {
+    "title": "Bus Drivers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 48370,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Bus%20Drivers"
+  },
+  {
+    "title": "Butchers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 38960,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Butchers"
+  },
+  {
+    "title": "Calibration Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 65040,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Calibration%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Cardiovascular Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 67260,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Cardiovascular%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Career and Technical Education Teachers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Communicator",
+      "Service-Oriented",
+      "Teaching",
+      "Attention to Safety",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 62910,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Career%20and%20Technical%20Education%20Teachers"
+  },
+  {
+    "title": "Carpenters",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 59310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Carpenters"
+  },
+  {
+    "title": "Cartographers and Photogrammetrists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 78380,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Cartographers%20and%20Photogrammetrists"
+  },
+  {
+    "title": "Cashiers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 31190,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Cashiers"
+  },
+  {
+    "title": "Chefs and Head Cooks",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 60990,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Chefs%20and%20Head%20Cooks"
+  },
+  {
+    "title": "Chemical Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 121860,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Chemical%20Engineers"
+  },
+  {
+    "title": "Chemical Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 57790,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Chemical%20Technicians"
+  },
+  {
+    "title": "Chemists and Materials Scientists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 86620,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Chemists%20and%20Materials%20Scientists"
+  },
+  {
+    "title": "Childcare Workers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 32050,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Childcare%20Workers"
+  },
+  {
+    "title": "Chiropractors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 79000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Chiropractors"
+  },
+  {
+    "title": "Civil Engineering Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 64200,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Civil%20Engineering%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Civil Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 99590,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Civil%20Engineers"
+  },
+  {
+    "title": "Claims Adjusters, Appraisers, Examiners, and Investigators",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Problem Solver",
+      "Technical",
+      "Coding",
+      "Strategic",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 76790,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Claims%20Adjusters,%20Appraisers,%20Examiners,%20and%20Investigators"
+  },
+  {
+    "title": "Clinical Laboratory Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 61890,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Clinical%20Laboratory%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Coaches and Scouts",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 45920,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Coaches%20and%20Scouts"
+  },
+  {
+    "title": "Community Health Workers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 51030,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Community%20Health%20Workers"
+  },
+  {
+    "title": "Compensation, Benefits, and Job Analysis Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 77020,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Compensation,%20Benefits,%20and%20Job%20Analysis%20Specialists"
+  },
+  {
+    "title": "Compensation and Benefits Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 140360,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Compensation%20and%20Benefits%20Managers"
+  },
+  {
+    "title": "Compliance Officers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 78420,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Compliance%20Officers"
+  },
+  {
+    "title": "Computer and Information Research Scientists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 140910,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Computer%20and%20Information%20Research%20Scientists"
+  },
+  {
+    "title": "Computer and Information Systems Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 171200,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Computer%20and%20Information%20Systems%20Managers"
+  },
+  {
+    "title": "Computer Hardware Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 155020,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Computer%20Hardware%20Engineers"
+  },
+  {
+    "title": "Computer Network Architects",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 130390,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Computer%20Network%20Architects"
+  },
+  {
+    "title": "Computer Programmers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Technical",
+      "Coding"
+    ],
+    "skills": [],
+    "median_pay_usd": 98670,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Computer%20Programmers"
+  },
+  {
+    "title": "Computer Support Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 61550,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Computer%20Support%20Specialists"
+  },
+  {
+    "title": "Computer Systems Analysts",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 103790,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Computer%20Systems%20Analysts"
+  },
+  {
+    "title": "Concierges",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 37320,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Concierges"
+  },
+  {
+    "title": "Conservation Scientists and Foresters",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 69060,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Conservation%20Scientists%20and%20Foresters"
+  },
+  {
+    "title": "Construction and Building Inspectors",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 72120,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Construction%20and%20Building%20Inspectors"
+  },
+  {
+    "title": "Construction Equipment Operators",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 58320,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Construction%20Equipment%20Operators"
+  },
+  {
+    "title": "Construction Laborers and Helpers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46050,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Construction%20Laborers%20and%20Helpers"
+  },
+  {
+    "title": "Construction Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 106980,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Construction%20Managers"
+  },
+  {
+    "title": "Cooks",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 35760,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Cooks"
+  },
+  {
+    "title": "Correctional Officers and Bailiffs",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 57950,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Correctional%20Officers%20and%20Bailiffs"
+  },
+  {
+    "title": "Cost Estimators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 77070,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Cost%20Estimators"
+  },
+  {
+    "title": "Court Reporters and Simultaneous Captioners",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 67310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Court%20Reporters%20and%20Simultaneous%20Captioners"
+  },
+  {
+    "title": "Craft and Fine Artists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 56260,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Craft%20and%20Fine%20Artists"
+  },
+  {
+    "title": "Credit Counselors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 50480,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Credit%20Counselors"
+  },
+  {
+    "title": "Customer Service Representatives",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 42830,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Customer%20Service%20Representatives"
+  },
+  {
+    "title": "Dancers and Choreographers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 2023,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Dancers%20and%20Choreographers"
+  },
+  {
+    "title": "Database Administrators and Architects",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Numerate",
+      "Data Visualization"
+    ],
+    "skills": [],
+    "median_pay_usd": 123100,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Database%20Administrators%20and%20Architects"
+  },
+  {
+    "title": "Data Scientists",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Numerate",
+      "Data Visualization"
+    ],
+    "skills": [],
+    "median_pay_usd": 112590,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Data%20Scientists"
+  },
+  {
+    "title": "Delivery Truck Drivers and Driver/Sales Workers",
+    "soc": "",
+    "traits_map": [
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation"
+    ],
+    "skills": [],
+    "median_pay_usd": 42770,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Delivery%20Truck%20Drivers%20and%20Driver/Sales%20Workers"
+  },
+  {
+    "title": "Dental and Ophthalmic Laboratory Technicians and Medical Appliance Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Technical",
+      "Coding"
+    ],
+    "skills": [],
+    "median_pay_usd": 45820,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Dental%20and%20Ophthalmic%20Laboratory%20Technicians%20and%20Medical%20Appliance%20Technicians"
+  },
+  {
+    "title": "Dental Assistants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 47300,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Dental%20Assistants"
+  },
+  {
+    "title": "Dental Hygienists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 94260,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Dental%20Hygienists"
+  },
+  {
+    "title": "Dentists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 179210,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Dentists"
+  },
+  {
+    "title": "Desktop Publishers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 53620,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Desktop%20Publishers"
+  },
+  {
+    "title": "Diagnostic Medical Sonographers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 89340,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Diagnostic%20Medical%20Sonographers"
+  },
+  {
+    "title": "Diesel Service Technicians and Mechanics",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 60640,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Diesel%20Service%20Technicians%20and%20Mechanics"
+  },
+  {
+    "title": "Dietitians and Nutritionists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 73850,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Dietitians%20and%20Nutritionists"
+  },
+  {
+    "title": "Drafters",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 65380,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Drafters"
+  },
+  {
+    "title": "Drywall Installers, Ceiling Tile Installers, and Tapers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 58800,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Drywall%20Installers,%20Ceiling%20Tile%20Installers,%20and%20Tapers"
+  },
+  {
+    "title": "Economists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 115440,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Economists"
+  },
+  {
+    "title": "Editors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 75260,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Editors"
+  },
+  {
+    "title": "Electrical and Electronic Engineering Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 77180,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Electrical%20and%20Electronic%20Engineering%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Electrical and Electronics Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 118780,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Electrical%20and%20Electronics%20Engineers"
+  },
+  {
+    "title": "Electrical and Electronics Installers and Repairers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 71270,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Electrical%20and%20Electronics%20Installers%20and%20Repairers"
+  },
+  {
+    "title": "Electrical Power-Line Installers and Repairers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 92560,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Electrical%20Power-Line%20Installers%20and%20Repairers"
+  },
+  {
+    "title": "Electricians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 62350,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Electricians"
+  },
+  {
+    "title": "Electro-mechanical and Mechatronics Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 70760,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Electro-mechanical%20and%20Mechatronics%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Elementary, Middle, and High School Principals",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 104070,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Elementary,%20Middle,%20and%20High%20School%20Principals"
+  },
+  {
+    "title": "Elevator and Escalator Installers and Repairers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 106580,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Elevator%20and%20Escalator%20Installers%20and%20Repairers"
+  },
+  {
+    "title": "Emergency Management Directors",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 86130,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Emergency%20Management%20Directors"
+  },
+  {
+    "title": "EMTs and Paramedics",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46350,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=EMTs%20and%20Paramedics"
+  },
+  {
+    "title": "Entertainment and Recreation Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 77180,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Entertainment%20and%20Recreation%20Managers"
+  },
+  {
+    "title": "Environmental Engineering Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 58890,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Environmental%20Engineering%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Environmental Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 104170,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Environmental%20Engineers"
+  },
+  {
+    "title": "Environmental Science and Protection Technicians",
+    "soc": "",
+    "traits_map": [
+      "Risk-Aware",
+      "Quality-Driven",
+      "Security-Minded",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 49490,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Environmental%20Science%20and%20Protection%20Technicians"
+  },
+  {
+    "title": "Environmental Scientists and Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 80060,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Environmental%20Scientists%20and%20Specialists"
+  },
+  {
+    "title": "Epidemiologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 83980,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Epidemiologists"
+  },
+  {
+    "title": "Exercise Physiologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 58160,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Exercise%20Physiologists"
+  },
+  {
+    "title": "Farmers, Ranchers, and Other Agricultural Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 87980,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Farmers,%20Ranchers,%20and%20Other%20Agricultural%20Managers"
+  },
+  {
+    "title": "Fashion Designers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 80690,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Fashion%20Designers"
+  },
+  {
+    "title": "Film and Video Editors and Camera Operators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 70570,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Film%20and%20Video%20Editors%20and%20Camera%20Operators"
+  },
+  {
+    "title": "Financial Analysts",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 101910,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Financial%20Analysts"
+  },
+  {
+    "title": "Financial Clerks",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 48650,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Financial%20Clerks"
+  },
+  {
+    "title": "Financial Examiners",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 90400,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Financial%20Examiners"
+  },
+  {
+    "title": "Financial Managers",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 161700,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Financial%20Managers"
+  },
+  {
+    "title": "Firefighters",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 59530,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Firefighters"
+  },
+  {
+    "title": "Fire Inspectors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 75480,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Fire%20Inspectors"
+  },
+  {
+    "title": "Fishing and Hunting Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 2023,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Fishing%20and%20Hunting%20Workers"
+  },
+  {
+    "title": "Fitness Trainers and Instructors",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 46180,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Fitness%20Trainers%20and%20Instructors"
+  },
+  {
+    "title": "Flight Attendants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 67130,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Flight%20Attendants"
+  },
+  {
+    "title": "Flooring Installers and Tile and Stone Setters",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 52000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Flooring%20Installers%20and%20Tile%20and%20Stone%20Setters"
+  },
+  {
+    "title": "Floral Designers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 36120,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Floral%20Designers"
+  },
+  {
+    "title": "Food and Beverage Serving and Related Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 31040,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Food%20and%20Beverage%20Serving%20and%20Related%20Workers"
+  },
+  {
+    "title": "Food Preparation Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 34220,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Food%20Preparation%20Workers"
+  },
+  {
+    "title": "Food Processing Equipment Workers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Hands-On",
+      "Quality-Driven",
+      "Design-Thinking",
+      "Customer-Focused",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 40050,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Food%20Processing%20Equipment%20Workers"
+  },
+  {
+    "title": "Food Service Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 65310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Food%20Service%20Managers"
+  },
+  {
+    "title": "Forensic Science Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 67440,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Forensic%20Science%20Technicians"
+  },
+  {
+    "title": "Forest and Conservation Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 43680,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Forest%20and%20Conservation%20Workers"
+  },
+  {
+    "title": "Fundraisers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 66490,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Fundraisers"
+  },
+  {
+    "title": "Funeral Service Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 59420,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Funeral%20Service%20Workers"
+  },
+  {
+    "title": "Gambling Services Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 35630,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Gambling%20Services%20Workers"
+  },
+  {
+    "title": "General Maintenance and Repair Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 48620,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=General%20Maintenance%20and%20Repair%20Workers"
+  },
+  {
+    "title": "General Office Clerks",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 43630,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=General%20Office%20Clerks"
+  },
+  {
+    "title": "Genetic Counselors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 98910,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Genetic%20Counselors"
+  },
+  {
+    "title": "Geographers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 97200,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Geographers"
+  },
+  {
+    "title": "Geological and Hydrologic Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 50510,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Geological%20and%20Hydrologic%20Technicians"
+  },
+  {
+    "title": "Geoscientists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 99240,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Geoscientists"
+  },
+  {
+    "title": "Glaziers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 55440,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Glaziers"
+  },
+  {
+    "title": "Graphic Designers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 61300,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Graphic%20Designers"
+  },
+  {
+    "title": "Grounds Maintenance Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 38470,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Grounds%20Maintenance%20Workers"
+  },
+  {
+    "title": "Hand Laborers and Material Movers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 37680,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Hand%20Laborers%20and%20Material%20Movers"
+  },
+  {
+    "title": "Hazardous Materials Removal Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 48490,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Hazardous%20Materials%20Removal%20Workers"
+  },
+  {
+    "title": "Health and Safety Engineers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 109660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Health%20and%20Safety%20Engineers"
+  },
+  {
+    "title": "Health Education Specialists",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Communicator",
+      "Service-Oriented",
+      "Teaching",
+      "Attention to Safety",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 63000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Health%20Education%20Specialists"
+  },
+  {
+    "title": "Health Information Technologists and Medical Registrars",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 67310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Health%20Information%20Technologists%20and%20Medical%20Registrars"
+  },
+  {
+    "title": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 59810,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Heating,%20Air%20Conditioning,%20and%20Refrigeration%20Mechanics%20and%20Installers"
+  },
+  {
+    "title": "Heavy and Tractor-trailer Truck Drivers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 57440,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Heavy%20and%20Tractor-trailer%20Truck%20Drivers"
+  },
+  {
+    "title": "Heavy Vehicle and Mobile Equipment Service Technicians",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 62740,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Heavy%20Vehicle%20and%20Mobile%20Equipment%20Service%20Technicians"
+  },
+  {
+    "title": "High School Teachers",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 64580,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=High%20School%20Teachers"
+  },
+  {
+    "title": "Historians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 74050,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Historians"
+  },
+  {
+    "title": "Home Health and Personal Care Aides",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 34900,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Home%20Health%20and%20Personal%20Care%20Aides"
+  },
+  {
+    "title": "Human Resources Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 140030,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Human%20Resources%20Managers"
+  },
+  {
+    "title": "Human Resources Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 72910,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Human%20Resources%20Specialists"
+  },
+  {
+    "title": "Hydrologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 92060,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Hydrologists"
+  },
+  {
+    "title": "Industrial Designers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Hands-On",
+      "Quality-Driven",
+      "Design-Thinking",
+      "Customer-Focused",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 79450,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Industrial%20Designers"
+  },
+  {
+    "title": "Industrial Engineering Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 64790,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Industrial%20Engineering%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Industrial Engineers",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 101140,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Industrial%20Engineers"
+  },
+  {
+    "title": "Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 63510,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Industrial%20Machinery%20Mechanics,%20Machinery%20Maintenance%20Workers,%20and%20Millwrights"
+  },
+  {
+    "title": "Industrial Production Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Hands-On",
+      "Quality-Driven",
+      "Strategic",
+      "Planning",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 121440,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Industrial%20Production%20Managers"
+  },
+  {
+    "title": "Information Clerks",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 43730,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Information%20Clerks"
+  },
+  {
+    "title": "Information Security Analysts",
+    "soc": "",
+    "traits_map": [
+      "Risk-Aware",
+      "Quality-Driven",
+      "Security-Minded",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 124910,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Information%20Security%20Analysts"
+  },
+  {
+    "title": "Instructional Coordinators",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 74720,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Instructional%20Coordinators"
+  },
+  {
+    "title": "Insulation Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 50730,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Insulation%20Workers"
+  },
+  {
+    "title": "Insurance Sales Agents",
+    "soc": "",
+    "traits_map": [
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation"
+    ],
+    "skills": [],
+    "median_pay_usd": 60370,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Insurance%20Sales%20Agents"
+  },
+  {
+    "title": "Insurance Underwriters",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 79880,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Insurance%20Underwriters"
+  },
+  {
+    "title": "Interior Designers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 63490,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Interior%20Designers"
+  },
+  {
+    "title": "Interpreters and Translators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 59440,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Interpreters%20and%20Translators"
+  },
+  {
+    "title": "Ironworkers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 61940,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Ironworkers"
+  },
+  {
+    "title": "Janitors and Building Cleaners",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 35930,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Janitors%20and%20Building%20Cleaners"
+  },
+  {
+    "title": "Jewelers and Precious Stone and Metal Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 49140,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Jewelers%20and%20Precious%20Stone%20and%20Metal%20Workers"
+  },
+  {
+    "title": "Judges and Hearing Officers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 135160,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Judges%20and%20Hearing%20Officers"
+  },
+  {
+    "title": "Kindergarten and Elementary School Teachers",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 62310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Kindergarten%20and%20Elementary%20School%20Teachers"
+  },
+  {
+    "title": "Labor Relations Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 93500,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Labor%20Relations%20Specialists"
+  },
+  {
+    "title": "Landscape Architects",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 79660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Landscape%20Architects"
+  },
+  {
+    "title": "Lawyers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 151160,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Lawyers"
+  },
+  {
+    "title": "Librarians and Library Media Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 64320,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Librarians%20and%20Library%20Media%20Specialists"
+  },
+  {
+    "title": "Library Technicians and Assistants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 37540,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Library%20Technicians%20and%20Assistants"
+  },
+  {
+    "title": "Licensed Practical and Licensed Vocational Nurses",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 62340,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Licensed%20Practical%20and%20Licensed%20Vocational%20Nurses"
+  },
+  {
+    "title": "Loan Officers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 74180,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Loan%20Officers"
+  },
+  {
+    "title": "Lodging Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 68130,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Lodging%20Managers"
+  },
+  {
+    "title": "Logging Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 49540,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Logging%20Workers"
+  },
+  {
+    "title": "Logisticians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 80880,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Logisticians"
+  },
+  {
+    "title": "Machinists and Tool and Die Makers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 57700,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Machinists%20and%20Tool%20and%20Die%20Makers"
+  },
+  {
+    "title": "Management Analysts",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 101190,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Management%20Analysts"
+  },
+  {
+    "title": "Manicurists and Pedicurists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 34660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Manicurists%20and%20Pedicurists"
+  },
+  {
+    "title": "Marine Engineers and Naval Architects",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 105670,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Marine%20Engineers%20and%20Naval%20Architects"
+  },
+  {
+    "title": "Market Research Analysts",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 76950,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Market%20Research%20Analysts"
+  },
+  {
+    "title": "Marriage and Family Therapists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 63780,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Marriage%20and%20Family%20Therapists"
+  },
+  {
+    "title": "Masonry Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 56600,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Masonry%20Workers"
+  },
+  {
+    "title": "Massage Therapists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 57950,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Massage%20Therapists"
+  },
+  {
+    "title": "Material Moving Machine Operators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46620,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Material%20Moving%20Machine%20Operators"
+  },
+  {
+    "title": "Material Recording Clerks",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46120,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Material%20Recording%20Clerks"
+  },
+  {
+    "title": "Materials Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 108310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Materials%20Engineers"
+  },
+  {
+    "title": "Mathematicians and Statisticians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 104350,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Mathematicians%20and%20Statisticians"
+  },
+  {
+    "title": "Mechanical Engineering Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 68730,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Mechanical%20Engineering%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Mechanical Engineers",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 102320,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Mechanical%20Engineers"
+  },
+  {
+    "title": "Medical and Health Services Managers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Leader",
+      "Organizer",
+      "Service-Oriented",
+      "Strategic",
+      "Planning",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 117960,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Medical%20and%20Health%20Services%20Managers"
+  },
+  {
+    "title": "Medical Assistants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 44200,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Medical%20Assistants"
+  },
+  {
+    "title": "Medical Dosimetrists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 138110,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Medical%20Dosimetrists"
+  },
+  {
+    "title": "Medical Equipment Repairers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 62630,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Medical%20Equipment%20Repairers"
+  },
+  {
+    "title": "Medical Records Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 50250,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Medical%20Records%20Specialists"
+  },
+  {
+    "title": "Medical Scientists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 100590,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Medical%20Scientists"
+  },
+  {
+    "title": "Medical Transcriptionists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 37550,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Medical%20Transcriptionists"
+  },
+  {
+    "title": "Meeting, Convention, and Event Planners",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 59440,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Meeting,%20Convention,%20and%20Event%20Planners"
+  },
+  {
+    "title": "Metal and Plastic Machine Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46800,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Metal%20and%20Plastic%20Machine%20Workers"
+  },
+  {
+    "title": "Microbiologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 87330,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Microbiologists"
+  },
+  {
+    "title": "Middle School Teachers",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 62970,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Middle%20School%20Teachers"
+  },
+  {
+    "title": "Military Careers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": null,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Military%20Careers"
+  },
+  {
+    "title": "Mining and Geological Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 101020,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Mining%20and%20Geological%20Engineers"
+  },
+  {
+    "title": "Models",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 89990,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Models"
+  },
+  {
+    "title": "Music Directors and Composers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 63670,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Music%20Directors%20and%20Composers"
+  },
+  {
+    "title": "Musicians and Singers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 2023,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Musicians%20and%20Singers"
+  },
+  {
+    "title": "Natural Sciences Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 161180,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Natural%20Sciences%20Managers"
+  },
+  {
+    "title": "Network and Computer Systems Administrators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 96800,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Network%20and%20Computer%20Systems%20Administrators"
+  },
+  {
+    "title": "News Analysts, Reporters, and Journalists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 60280,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=News%20Analysts,%20Reporters,%20and%20Journalists"
+  },
+  {
+    "title": "Nuclear Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 127520,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Nuclear%20Engineers"
+  },
+  {
+    "title": "Nuclear Medicine Technologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 97020,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Nuclear%20Medicine%20Technologists"
+  },
+  {
+    "title": "Nuclear Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 104240,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Nuclear%20Technicians"
+  },
+  {
+    "title": "Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 132050,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Nurse%20Anesthetists,%20Nurse%20Midwives,%20and%20Nurse%20Practitioners"
+  },
+  {
+    "title": "Nursing Assistants and Orderlies",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 39430,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Nursing%20Assistants%20and%20Orderlies"
+  },
+  {
+    "title": "Occupational Health and Safety Specialists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 78900,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Occupational%20Health%20and%20Safety%20Specialists%20and%20Technicians"
+  },
+  {
+    "title": "Occupational Therapists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 98340,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Occupational%20Therapists"
+  },
+  {
+    "title": "Occupational Therapy Assistants and Aides",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 66050,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Occupational%20Therapy%20Assistants%20and%20Aides"
+  },
+  {
+    "title": "Oil and Gas Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 52610,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Oil%20and%20Gas%20Workers"
+  },
+  {
+    "title": "Operations Research Analysts",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 91290,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Operations%20Research%20Analysts"
+  },
+  {
+    "title": "Opticians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46560,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Opticians"
+  },
+  {
+    "title": "Optometrists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 134830,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Optometrists"
+  },
+  {
+    "title": "Orthotists and Prosthetists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 78310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Orthotists%20and%20Prosthetists"
+  },
+  {
+    "title": "Painters, Construction and Maintenance",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 48660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Painters,%20Construction%20and%20Maintenance"
+  },
+  {
+    "title": "Painting and Coating Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 47390,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Painting%20and%20Coating%20Workers"
+  },
+  {
+    "title": "Paralegals and Legal Assistants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 61010,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Paralegals%20and%20Legal%20Assistants"
+  },
+  {
+    "title": "Personal Financial Advisors",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 102140,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Personal%20Financial%20Advisors"
+  },
+  {
+    "title": "Pest Control Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 44730,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Pest%20Control%20Workers"
+  },
+  {
+    "title": "Petroleum Engineers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 141280,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Petroleum%20Engineers"
+  },
+  {
+    "title": "Pharmacists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 137480,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Pharmacists"
+  },
+  {
+    "title": "Pharmacy Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 43460,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Pharmacy%20Technicians"
+  },
+  {
+    "title": "Phlebotomists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 43660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Phlebotomists"
+  },
+  {
+    "title": "Photographers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 42520,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Photographers"
+  },
+  {
+    "title": "Physical Therapist Assistants and Aides",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 60050,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Physical%20Therapist%20Assistants%20and%20Aides"
+  },
+  {
+    "title": "Physical Therapists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 101020,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Physical%20Therapists"
+  },
+  {
+    "title": "Physician Assistants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 133260,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Physician%20Assistants"
+  },
+  {
+    "title": "Physicians and Surgeons",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 100000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Physicians%20and%20Surgeons"
+  },
+  {
+    "title": "Physicists and Astronomers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 166290,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Physicists%20and%20Astronomers"
+  },
+  {
+    "title": "Plumbers, Pipefitters, and Steamfitters",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 62970,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Plumbers,%20Pipefitters,%20and%20Steamfitters"
+  },
+  {
+    "title": "Podiatrists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 152800,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Podiatrists"
+  },
+  {
+    "title": "Police and Detectives",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 77270,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Police%20and%20Detectives"
+  },
+  {
+    "title": "Political Scientists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 139380,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Political%20Scientists"
+  },
+  {
+    "title": "Postal Service Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 57870,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Postal%20Service%20Workers"
+  },
+  {
+    "title": "Postsecondary Education Administrators",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 103960,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Postsecondary%20Education%20Administrators"
+  },
+  {
+    "title": "Postsecondary Teachers",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 83980,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Postsecondary%20Teachers"
+  },
+  {
+    "title": "Power Plant Operators, Distributors, and Dispatchers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 103600,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Power%20Plant%20Operators,%20Distributors,%20and%20Dispatchers"
+  },
+  {
+    "title": "Preschool and Childcare Center Directors",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 56270,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Preschool%20and%20Childcare%20Center%20Directors"
+  },
+  {
+    "title": "Preschool Teachers",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 37120,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Preschool%20Teachers"
+  },
+  {
+    "title": "Private Detectives and Investigators",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 52370,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Private%20Detectives%20and%20Investigators"
+  },
+  {
+    "title": "Probation Officers and Correctional Treatment Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 64520,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Probation%20Officers%20and%20Correctional%20Treatment%20Specialists"
+  },
+  {
+    "title": "Producers and Directors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 83480,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Producers%20and%20Directors"
+  },
+  {
+    "title": "Project Management Specialists",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 100750,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Project%20Management%20Specialists"
+  },
+  {
+    "title": "Property, Real Estate, and Community Association Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 66700,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Property,%20Real%20Estate,%20and%20Community%20Association%20Managers"
+  },
+  {
+    "title": "Property Appraisers and Assessors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Technical",
+      "Coding"
+    ],
+    "skills": [],
+    "median_pay_usd": 65420,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Property%20Appraisers%20and%20Assessors"
+  },
+  {
+    "title": "Psychiatric Technicians and Aides",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 42200,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Psychiatric%20Technicians%20and%20Aides"
+  },
+  {
+    "title": "Psychologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 94310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Psychologists"
+  },
+  {
+    "title": "Public Relations and Fundraising Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 132870,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Public%20Relations%20and%20Fundraising%20Managers"
+  },
+  {
+    "title": "Public Relations Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 69780,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Public%20Relations%20Specialists"
+  },
+  {
+    "title": "Public Safety Telecommunicators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 50730,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Public%20Safety%20Telecommunicators"
+  },
+  {
+    "title": "Purchasing Managers, Buyers, and Purchasing Agents",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 79830,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Purchasing%20Managers,%20Buyers,%20and%20Purchasing%20Agents"
+  },
+  {
+    "title": "Quality Control Inspectors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 47460,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Quality%20Control%20Inspectors"
+  },
+  {
+    "title": "Radiation Therapists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 101990,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Radiation%20Therapists"
+  },
+  {
+    "title": "Radiologic and MRI Technologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 78980,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Radiologic%20and%20MRI%20Technologists"
+  },
+  {
+    "title": "Railroad Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 75680,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Railroad%20Workers"
+  },
+  {
+    "title": "Real Estate Brokers and Sales Agents",
+    "soc": "",
+    "traits_map": [
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation"
+    ],
+    "skills": [],
+    "median_pay_usd": 58960,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Real%20Estate%20Brokers%20and%20Sales%20Agents"
+  },
+  {
+    "title": "Receptionists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 37230,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Receptionists"
+  },
+  {
+    "title": "Recreational Therapists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 60280,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Recreational%20Therapists"
+  },
+  {
+    "title": "Recreation Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 35380,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Recreation%20Workers"
+  },
+  {
+    "title": "Registered Nurses",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 93600,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Registered%20Nurses"
+  },
+  {
+    "title": "Rehabilitation Counselors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 46110,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Rehabilitation%20Counselors"
+  },
+  {
+    "title": "Respiratory Therapists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 80450,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Respiratory%20Therapists"
+  },
+  {
+    "title": "Retail Sales Workers",
+    "soc": "",
+    "traits_map": [
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation"
+    ],
+    "skills": [],
+    "median_pay_usd": 34730,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Retail%20Sales%20Workers"
+  },
+  {
+    "title": "Roofers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 50970,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Roofers"
+  },
+  {
+    "title": "Sales Engineers",
+    "soc": "",
+    "traits_map": [
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation"
+    ],
+    "skills": [],
+    "median_pay_usd": 121520,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Sales%20Engineers"
+  },
+  {
+    "title": "Sales Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 138060,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Sales%20Managers"
+  },
+  {
+    "title": "School and Career Counselors and Advisors",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 65140,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=School%20and%20Career%20Counselors%20and%20Advisors"
+  },
+  {
+    "title": "Secretaries and Administrative Assistants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 47460,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Secretaries%20and%20Administrative%20Assistants"
+  },
+  {
+    "title": "Securities, Commodities, and Financial Services Sales Agents",
+    "soc": "",
+    "traits_map": [
+      "Analytical",
+      "Strategic",
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation",
+      "Financial Acumen"
+    ],
+    "skills": [],
+    "median_pay_usd": 78140,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Securities,%20Commodities,%20and%20Financial%20Services%20Sales%20Agents"
+  },
+  {
+    "title": "Security Guards and Gambling Surveillance Officers",
+    "soc": "",
+    "traits_map": [
+      "Risk-Aware",
+      "Quality-Driven",
+      "Security-Minded",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 38390,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Security%20Guards%20and%20Gambling%20Surveillance%20Officers"
+  },
+  {
+    "title": "Semiconductor Processing Technicians",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 51180,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Semiconductor%20Processing%20Technicians"
+  },
+  {
+    "title": "Set and Exhibit Designers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 66280,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Set%20and%20Exhibit%20Designers"
+  },
+  {
+    "title": "Sheet Metal Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 60850,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Sheet%20Metal%20Workers"
+  },
+  {
+    "title": "Skincare Specialists",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 41560,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Skincare%20Specialists"
+  },
+  {
+    "title": "Small Engine Mechanics",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 48240,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Small%20Engine%20Mechanics"
+  },
+  {
+    "title": "Social and Community Service Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 78240,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Social%20and%20Community%20Service%20Managers"
+  },
+  {
+    "title": "Social and Human Service Assistants",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 45120,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Social%20and%20Human%20Service%20Assistants"
+  },
+  {
+    "title": "Social Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 61330,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Social%20Workers"
+  },
+  {
+    "title": "Sociologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 101690,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Sociologists"
+  },
+  {
+    "title": "Software Developers, Quality Assurance Analysts, and Testers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Technical",
+      "Coding"
+    ],
+    "skills": [],
+    "median_pay_usd": 131450,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Software%20Developers,%20Quality%20Assurance%20Analysts,%20and%20Testers"
+  },
+  {
+    "title": "Solar Photovoltaic Installers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 51860,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Solar%20Photovoltaic%20Installers"
+  },
+  {
+    "title": "Special Education Teachers",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 64270,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Special%20Education%20Teachers"
+  },
+  {
+    "title": "Special Effects Artists and Animators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 99800,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Special%20Effects%20Artists%20and%20Animators"
+  },
+  {
+    "title": "Speech-Language Pathologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 95410,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Speech-Language%20Pathologists"
+  },
+  {
+    "title": "Stationary Engineers and Boiler Operators",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 75190,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Stationary%20Engineers%20and%20Boiler%20Operators"
+  },
+  {
+    "title": "Substance Abuse, Behavioral Disorder, and Mental Health Counselors",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 59190,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Substance%20Abuse,%20Behavioral%20Disorder,%20and%20Mental%20Health%20Counselors"
+  },
+  {
+    "title": "Surgical Assistants and Technologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 62480,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Surgical%20Assistants%20and%20Technologists"
+  },
+  {
+    "title": "Surveying and Mapping Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Technical",
+      "Coding"
+    ],
+    "skills": [],
+    "median_pay_usd": 51940,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Surveying%20and%20Mapping%20Technicians"
+  },
+  {
+    "title": "Surveyors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 72740,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Surveyors"
+  },
+  {
+    "title": "Survey Researchers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 63380,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Survey%20Researchers"
+  },
+  {
+    "title": "Tax Examiners and Collectors, and Revenue Agents",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 59740,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Tax%20Examiners%20and%20Collectors,%20and%20Revenue%20Agents"
+  },
+  {
+    "title": "Taxi Drivers, Shuttle Drivers, and Chauffeurs",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 36660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Taxi%20Drivers,%20Shuttle%20Drivers,%20and%20Chauffeurs"
+  },
+  {
+    "title": "Teacher Assistants",
+    "soc": "",
+    "traits_map": [
+      "Communicator",
+      "Teaching",
+      "Coaching"
+    ],
+    "skills": [],
+    "median_pay_usd": 35240,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Teacher%20Assistants"
+  },
+  {
+    "title": "Technical Writers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 91670,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Technical%20Writers"
+  },
+  {
+    "title": "Telecommunications Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 64310,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Telecommunications%20Technicians"
+  },
+  {
+    "title": "Tellers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 39340,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Tellers"
+  },
+  {
+    "title": "test",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 81680,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=test"
+  },
+  {
+    "title": "Top Executives",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 105350,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Top%20Executives"
+  },
+  {
+    "title": "Tour and Travel Guides",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 36660,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Tour%20and%20Travel%20Guides"
+  },
+  {
+    "title": "Training and Development Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Problem Solver",
+      "Technical",
+      "Coding",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 127090,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Training%20and%20Development%20Managers"
+  },
+  {
+    "title": "Training and Development Specialists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Technical",
+      "Coding"
+    ],
+    "skills": [],
+    "median_pay_usd": 65850,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Training%20and%20Development%20Specialists"
+  },
+  {
+    "title": "Transportation, Storage, and Distribution Managers",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 102010,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Transportation,%20Storage,%20and%20Distribution%20Managers"
+  },
+  {
+    "title": "Travel Agents",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 48450,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Travel%20Agents"
+  },
+  {
+    "title": "Tutors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 40090,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Tutors"
+  },
+  {
+    "title": "Umpires, Referees, and Other Sports Officials",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 38820,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Umpires,%20Referees,%20and%20Other%20Sports%20Officials"
+  },
+  {
+    "title": "Urban and Regional Planners",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 83720,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Urban%20and%20Regional%20Planners"
+  },
+  {
+    "title": "Veterinarians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 125510,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Veterinarians"
+  },
+  {
+    "title": "Veterinary Assistants and Laboratory Animal Caretakers",
+    "soc": "",
+    "traits_map": [
+      "Empathetic",
+      "Service-Oriented",
+      "Attention to Safety"
+    ],
+    "skills": [],
+    "median_pay_usd": 37320,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Veterinary%20Assistants%20and%20Laboratory%20Animal%20Caretakers"
+  },
+  {
+    "title": "Veterinary Technologists and Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 45980,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Veterinary%20Technologists%20and%20Technicians"
+  },
+  {
+    "title": "Waiters and Waitresses",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 33760,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Waiters%20and%20Waitresses"
+  },
+  {
+    "title": "Water and Wastewater Treatment Plant and System Operators",
+    "soc": "",
+    "traits_map": [
+      "Leader",
+      "Organizer",
+      "Strategic",
+      "Planning"
+    ],
+    "skills": [],
+    "median_pay_usd": 58260,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Water%20and%20Wastewater%20Treatment%20Plant%20and%20System%20Operators"
+  },
+  {
+    "title": "Water Transportation Workers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 66490,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Water%20Transportation%20Workers"
+  },
+  {
+    "title": "Web Developers and Digital Designers",
+    "soc": "",
+    "traits_map": [
+      "Creative",
+      "Problem Solver",
+      "Technical",
+      "Coding",
+      "Design-Thinking",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 95380,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Web%20Developers%20and%20Digital%20Designers"
+  },
+  {
+    "title": "Welders, Cutters, Solderers, and Brazers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 51000,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Welders,%20Cutters,%20Solderers,%20and%20Brazers"
+  },
+  {
+    "title": "Wholesale and Manufacturing Sales Representatives",
+    "soc": "",
+    "traits_map": [
+      "Hands-On",
+      "Quality-Driven",
+      "Persuasive",
+      "Customer-Focused",
+      "Negotiation",
+      "Systems Thinking",
+      "Mechanical Aptitude"
+    ],
+    "skills": [],
+    "median_pay_usd": 74100,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Wholesale%20and%20Manufacturing%20Sales%20Representatives"
+  },
+  {
+    "title": "Wind Turbine Technicians",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 62580,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Wind%20Turbine%20Technicians"
+  },
+  {
+    "title": "Woodworkers",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 43720,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Woodworkers"
+  },
+  {
+    "title": "Writers and Authors",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 72270,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Writers%20and%20Authors"
+  },
+  {
+    "title": "Zoologists and Wildlife Biologists",
+    "soc": "",
+    "traits_map": [
+      "Problem Solver",
+      "Quality-Driven",
+      "Customer-Focused"
+    ],
+    "skills": [],
+    "median_pay_usd": 72860,
+    "growth_outlook_pct": null,
+    "education": null,
+    "summary": "",
+    "source_url": "https://www.bls.gov/ooh/search/occupation.htm?query=Zoologists%20and%20Wildlife%20Biologists"
+  }
+]

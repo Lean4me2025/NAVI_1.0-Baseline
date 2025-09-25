@@ -1,57 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Welcome · NOVA</title>
-  <link rel="stylesheet" href="assets/styles.css" />
-  <script defer src="assets/app.js"></script>
-  <script>
-    // Reset state every time you land here to satisfy 'fresh each session'
-    document.addEventListener('DOMContentLoaded', () => App.reset());
-  </script>
+  <title>Nova + Navi — Integrated v1.2 (OOH Pre-Converted)</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
 </head>
 <body>
-
-<header class="header">
-  <div class="container header-inner">
-    <div class="brand">
-      <div class="logo"></div>
-      <div>N O V A · N A V I</div>
-    </div>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="traits.html">Discover</a>
-      <a href="results.html">My Snapshot</a>
-      <a href="reflection.html">Reflect</a>
-      <a href="offers.html">Plans</a>
-      <a href="navi/welcome.html">Build</a>
-    </nav>
-  </div>
-</header>
-
-  <main class="container">
-    <div class="card" style="margin-top:18px;">
-      <h1 style="margin:0 0 8px;">Welcome to <span style="letter-spacing:1px;">N O V A</span></h1>
-      <p class="small" style="margin-top:0;">Discover your purpose-aligned strengths and move into action with Navi.</p>
-      <div class="info" style="margin-top:16px;">
-        <p style="margin:0;">
-          <strong>89% of people aren’t operating in their core purpose.</strong><br/>
-          Nova helps you surface your top strengths through 50 carefully-curated traits. Your results are then matched to the skills and requirements of more than 400 career paths to produce a <em>focused</em> list of roles where your strengths are already aligned.
-        </p>
-      </div>
-      <div style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap;">
-        <button class="button" onclick="App.go('traits.html')">Start with Nova</button>
-        <a class="button secondary" href="navi/welcome.html">Skip to Navi</a>
-      </div>
-    </div>
-  </main>
-
-<footer class="footer">
   <div class="container">
-    Nova + Navi · Purpose → Path · © 2025
-  </div>
-</footer>
+    <div class="header">
+      <div class="brand">⭐ NOVA + 🧭 NAVI</div>
+      <div class="badge">Integrated Flow v1.2 • OOH: Pre-Converted</div>
+    </div>
 
+    <div id="dataBanner" class="banner small">Loading occupational data…</div>
+
+    <div class="stepper">
+      <div class="step active" data-step="welcome">Welcome</div>
+      <div class="step" data-step="traits">Traits</div>
+      <div class="step" data-step="results">Results</div>
+      <div class="step" data-step="reflection">Reflection</div>
+      <div class="step" data-step="choosepath">Choose Path</div>
+      <div class="step" data-step="navi_welcome">Navi</div>
+    </div>
+
+    <section id="welcome" class="card">
+      <h1>Welcome to NOVA</h1>
+      <p class="kicker">Discover your purpose and natural strengths. Then hand-off to Navi to turn insight into action.</p>
+      <blockquote>
+        <strong>Not random results:</strong> We analyze traits and match them to skills and requirements from more than 400 career paths to present a focused, credible list aligned to your strengths.
+      </blockquote>
+      <div class="actions">
+        <button class="btn primary" onclick="show('traits')">Start with Nova</button>
+        <button class="btn ghost" onclick="show('navi_welcome')">I already know my purpose → Go to Navi</button>
+      </div>
+    </section>
+
+    <section id="traits" class="card" style="display:none">
+      <h2>Select Your Traits <span class="small">(Selected: <span id='selCount'>0</span>/50)</span></h2>
+      <div id="traitsGrid" class="grid traits"></div>
+      <div class="actions">
+        <button id="clearBtn" class="btn ghost" onclick="clearSelections()">Clear selections</button>
+        <button id="seeResultsBtn" class="btn primary" onclick="computeResults(); show('results')">See My Results</button>
+        <button class="btn" onclick="show('welcome')">Back</button>
+      </div>
+    </section>
+
+    <section id="results" class="card" style="display:none">
+      <h2>Your Aligned Roles</h2>
+      <p class="notice">Powered by OOH alignment (data source shown above). Export your snapshot any time.</p>
+      <ul id="rolesList" class="list"></ul>
+      <div class="actions">
+        <button class="btn" onclick="show('traits')">Edit Traits</button>
+        <button class="btn" onclick="exportSnapshot()">Export Snapshot (JSON)</button>
+        <button class="btn primary" onclick="show('reflection')">Continue</button>
+      </div>
+    </section>
+
+    <section id="reflection" class="card" style="display:none">
+      <h2>Where Are You Starting From?</h2>
+      <div class="grid">
+        <div class="card selectable" data-ref="exploring" onclick="selectReflection('exploring')"><strong>I'm exploring</strong><div class="small">Just getting clarity; need direction</div></div>
+        <div class="card selectable" data-ref="transitioning" onclick="selectReflection('transitioning')"><strong>I'm transitioning</strong><div class="small">Shifting roles/industries; need a roadmap</div></div>
+        <div class="card selectable" data-ref="leveling" onclick="selectReflection('leveling')"><strong>I'm leveling up</strong><div class="small">Targeting growth and leadership</div></div>
+        <div class="card selectable" data-ref="ready" onclick="selectReflection('ready')"><strong>I'm ready to launch</strong><div class="small">Resume, applications, interviews now</div></div>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="show('results')">Back</button>
+        <button id="toChoosePath" class="btn primary" onclick="show('choosepath')" disabled>Save & Continue</button>
+      </div>
+    </section>
+
+    <section id="choosepath" class="card" style="display:none">
+      <h2>Choose Your Path</h2>
+      <p class="kicker">Pick how you want to proceed into Navi.</p>
+      <div class="grid">
+        <div class="card">
+          <strong>Learn the Foundations</strong>
+          <div class="small">Get the Purpose book for a deeper framework.</div>
+          <div class="payhip"><a href="https://payhip.com/b/N7Lvg" class="payhip-buy-button" data-theme="green" data-product="N7Lvg">Buy Book</a></div>
+        </div>
+        <div class="card">
+          <strong>Go All-In with Pro Suite</strong>
+          <div class="small">Resume rewrite AI, cover letters, company intel, advanced filters, alerts.</div>
+          <div class="payhip"><a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Pro Suite</a></div>
+        </div>
+        <div class="card">
+          <strong>Starter Plan</strong><div class="callout small">Add Payhip product ID when ready.</div>
+        </div>
+        <div class="card">
+          <strong>Mastery Plan</strong><div class="callout small">Add Payhip product ID when ready.</div>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="show('reflection')">Back</button>
+        <button class="btn primary" onclick="show('navi_welcome')">Continue to Navi</button>
+      </div>
+    </section>
+
+    <section id="navi_welcome" class="card" style="display:none">
+      <h2>Welcome to NAVI</h2>
+      <p class="kicker">We turn purpose into a plan.</p>
+      <ul class="list">
+        <li>✔ Confirms your plan (Starter / Pro / Mastery / Suite)</li>
+        <li>✔ Outlines what’s included</li>
+        <li>✔ CTA → Start My Strategy</li>
+      </ul>
+      <div class="actions">
+        <button class="btn" onclick="show('choosepath')">Back</button>
+        <button class="btn primary" onclick="show('navi_strategy')">Start My Strategy</button>
+      </div>
+    </section>
+
+    <section id="navi_strategy" class="card" style="display:none">
+      <h2>Strategy: Five W’s + How</h2>
+      <div class="grid">
+        <div class="card"><strong>Who</strong><div class="small">Rooted in Nova traits.</div></div>
+        <div class="card"><strong>What</strong><div class="small">Roles that fit (from your Results).</div></div>
+        <div class="card"><strong>Why</strong><div class="small">Motivation & legacy statement.</div></div>
+        <div class="card"><strong>When</strong><div class="small">Timing, gaps, market cycles.</div></div>
+        <div class="card"><strong>Where</strong><div class="small">Location & relocation options.</div></div>
+        <div class="card"><strong>How</strong><div class="small">Use Navi tools to execute.</div></div>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="show('navi_welcome')">Back</button>
+        <button class="btn primary" onclick="show('navi_dashboard')">Go to My Dashboard</button>
+      </div>
+    </section>
+
+    <section id="navi_dashboard" class="card" style="display:none">
+      <h2>My Dashboard</h2>
+      <div class="grid">
+        <div class="card"><strong>Nova Snapshot</strong><div class="small">Top traits selected: <span id="topTraits">—</span></div><hr/><div class="small">Reflection: <span id="refChoice">—</span></div></div>
+        <div class="card"><strong>Unlocked Tools</strong><ul class="list small"><li>Resume Builder</li><li>Cover Letter Generator</li><li>Company Intelligence Reports</li><li>Advanced Job Filters & Alerts</li></ul></div>
+        <div class="card"><strong>Next Actions</strong><ul class="list small"><li>Create baseline resume</li><li>Tailor cover letter for 2 roles</li><li>Set 3 company targets</li></ul></div>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="show('navi_strategy')">Back</button>
+        <button class="btn primary" onclick="show('navi_plans')">View/Upgrade Plans</button>
+      </div>
+    </section>
+
+    <section id="navi_plans" class="card" style="display:none">
+      <h2>Plans & Upgrades</h2>
+      <div class="grid">
+        <div class="card"><strong>Purpose Book</strong><div class="payhip"><a href="https://payhip.com/b/N7Lvg" class="payhip-buy-button" data-theme="green" data-product="N7Lvg">Buy Book</a></div></div>
+        <div class="card"><strong>NAVI Pro Suite (Mastery)</strong><div class="payhip"><a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Pro Suite</a></div></div>
+        <div class="card"><strong>Starter</strong><div class="callout small">Add Payhip product ID when ready.</div></div>
+        <div class="card"><strong>Mastery</strong><div class="callout small">Add Payhip product ID when ready.</div></div>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="show('navi_dashboard')">Back</button>
+      </div>
+    </section>
+
+    <div class="footer small">© 2025 Nova & Navi — Integrated Build Demo v1.2</div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
