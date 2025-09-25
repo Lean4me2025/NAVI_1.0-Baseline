@@ -1,0 +1,54 @@
+Nova + Navi — Integrated Build
+=================================
+
+VERSION: v1.4a
+DATE: 2025-09-25
+NOTES: Added CHANGELOG.txt; app code is same as v1.4.
+
+-----------------------------
+✅ INCLUDED IN v1.4 (CURRENT)
+-----------------------------
+NOVA (Purpose & Traits)
+- Dark theme (no white backgrounds).
+- Trait selection (50 traits) with green highlight when selected; Clear Selections button.
+- Results page powered by OOH alignment (~362 roles):
+  - Title, SOC code, median pay, growth %.
+  - Trait preview (top 2–3 matches).
+  - One-liner summary (OOH).
+  - Source link.
+  - Export Snapshot (JSON).
+- Reflection page with 4 tiles; Save & Continue enables on selection.
+
+PLANS / MONETIZATION
+- Live Payhip embeds on Choose Path and Navi Plans:
+  - Purpose Book (N7Lvg)
+  - Starter Plan (GdfU7)
+  - Pro Plan (knC1Z)
+  - Mastery / Pro Suite (re4Hy)
+
+NAVI (Execution)
+- Sign In / Sign Out (email; localStorage session).
+- Route guards (must sign in for Choose Path & all Navi pages).
+- Access Code unlock (e.g., NAVI-ACCESS-2025) with header badge.
+- Navi Welcome → Strategy (Five W’s + How, text version) → Dashboard (Action Center).
+- Dashboard shows Nova snapshot + reflection and unlocked tools per plan.
+
+STYLING & UX
+- Dark Nova/Navi palette; rounded cards; high-contrast selections.
+- Consistent copy and button states across flow.
+
+-----------------------------
+🔜 PLANNED FOR v1.5 (NEXT)
+-----------------------------
+- Visual staircase on Strategy:
+  - Step 1 longest at bottom; 2–4 shorter upward; all right edges aligned.
+  - Gold border, dark background, white text.
+  - Text stays inside each step.
+  - (Optional) Make steps clickable to jump to matching sections in Dashboard.
+
+-----------------------------
+📌 HOW TO DEPLOY
+-----------------------------
+- Upload folder to repo; deploy with Vercel.
+- Sign in to pass guards; test Payhip buttons; export snapshot.
+- Access Code (sample): NAVI-ACCESS-2025.

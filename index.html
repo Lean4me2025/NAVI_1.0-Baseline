@@ -13,7 +13,12 @@
   <div class="container">
     <div class="header">
       <div class="brand">⭐ NOVA + 🧭 NAVI</div>
-      <div class="badge">Integrated Flow v1.2 • OOH: Pre-Converted</div>
+      <div class="header-actions">
+        <div id="accessBadge" class="badge" style="display:none">Access Unlocked</div>
+        <button id="signinBtn" class="btn">Sign In</button>
+        <button id="signoutBtn" class="btn" style="display:none">Sign Out</button>
+        <div class="badge">Integrated Flow v1.4 • OOH: Pre-Converted • Sign-In</div>
+      </div>
     </div>
 
     <div id="dataBanner" class="banner small">Loading occupational data…</div>
@@ -25,7 +30,41 @@
       <div class="step" data-step="reflection">Reflection</div>
       <div class="step" data-step="choosepath">Choose Path</div>
       <div class="step" data-step="navi_welcome">Navi</div>
-    </div>
+    
+    <!-- SIGN IN -->
+    <section id="signin" class="card" style="display:none">
+      <h2>Sign In</h2>
+      <p class="kicker">Use your email to continue. We'll remember you on this device.</p>
+      <div class="grid">
+        <div class="card">
+          <label>Email</label><br/>
+          <input id="signinEmail" type="email" placeholder="you@example.com"/>
+          <div class="small" style="margin-top:8px;opacity:.8">By continuing you agree to our terms.</div>
+          <div class="actions" style="margin-top:12px">
+            <button class="btn primary" onclick="handleSignIn()">Continue</button>
+            <button class="btn" onclick="show('welcome')">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCESS CODE -->
+    <section id="accesscode" class="card" style="display:none">
+      <h2>Have an Access Code?</h2>
+      <p class="kicker">Enter your code to unlock extras.</p>
+      <div class="grid">
+        <div class="card">
+          <label>Access Code</label><br/>
+          <input id="accessInput" type="text" placeholder="NAVI-ACCESS-2025"/>
+          <div class="actions" style="margin-top:12px">
+            <button class="btn primary" onclick="handleAccessCode()">Unlock</button>
+            <button class="btn" onclick="show('welcome')">Cancel</button>
+          </div>
+          <div id="accessMsg" class="small" style="margin-top:8px;"></div>
+        </div>
+      </div>
+    </section>
+</div>
 
     <section id="welcome" class="card">
       <h1>Welcome to NOVA</h1>
@@ -146,12 +185,30 @@
 
     <section id="navi_plans" class="card" style="display:none">
       <h2>Plans & Upgrades</h2>
+      
       <div class="grid">
-        <div class="card"><strong>Purpose Book</strong><div class="payhip"><a href="https://payhip.com/b/N7Lvg" class="payhip-buy-button" data-theme="green" data-product="N7Lvg">Buy Book</a></div></div>
-        <div class="card"><strong>NAVI Pro Suite (Mastery)</strong><div class="payhip"><a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Pro Suite</a></div></div>
-        <div class="card"><strong>Starter</strong><div class="callout small">Add Payhip product ID when ready.</div></div>
-        <div class="card"><strong>Mastery</strong><div class="callout small">Add Payhip product ID when ready.</div></div>
+        <div class="card">
+          <strong>Purpose Book</strong>
+          <div class="small">Get the foundation: discover, define, and direct your purpose.</div>
+          <div class="payhip"><a href="https://payhip.com/b/N7Lvg" class="payhip-buy-button" data-theme="green" data-product="N7Lvg">Buy Now</a></div>
+        </div>
+        <div class="card">
+          <strong>Starter Plan</strong>
+          <div class="small">Resume builder + basic job suggestions to get you moving.</div>
+          <div class="payhip"><a href="https://payhip.com/b/GdfU7" class="payhip-buy-button" data-theme="green" data-product="GdfU7">Buy Now</a></div>
+        </div>
+        <div class="card">
+          <strong>Pro Plan</strong>
+          <div class="small">Unlock AI resume rewrite, cover letters, company intel, and advanced filters.</div>
+          <div class="payhip"><a href="https://payhip.com/b/knC1Z" class="payhip-buy-button" data-theme="green" data-product="knC1Z">Buy Now</a></div>
+        </div>
+        <div class="card">
+          <strong>Mastery (Pro Suite)</strong>
+          <div class="small">Everything in Pro plus coaching/roadmap & more.</div>
+          <div class="payhip"><a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Now</a></div>
+        </div>
       </div>
+
       <div class="actions">
         <button class="btn" onclick="show('navi_dashboard')">Back</button>
       </div>

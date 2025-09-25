@@ -1,8 +1,18 @@
 
 const screens = ["welcome","traits","results","reflection","choosepath","navi_welcome","navi_strategy","navi_dashboard","navi_plans"];
-let state = { selectedTraits: [], reflectionChoice: null, ooh: [], oohSource: "assets/data/ooh.json", traitsList: [] };
+let state = { selectedTraits: [], reflectionChoice: null, ooh: [], oohSource: "assets/data/ooh.json", traitsList: [], userEmail: null, accessUnlocked: false };
+
+
+function isProtected(id){
+  // Protect Navi pages & Plans until signed in
+  return ["navi_welcome","navi_strategy","navi_dashboard","navi_plans","choosepath"].includes(id);
+}
 
 function show(id){
+  if(isProtected(id) && !state.userEmail){
+    id = "signin";
+  }
+
   screens.forEach(s=>document.getElementById(s).style.display = (s===id?"block":"none"));
   document.querySelectorAll('.step').forEach(el=>{ el.classList.toggle('active', el.dataset.step === id); });
   window.scrollTo({top:0, behavior:"instant"});
@@ -85,7 +95,9 @@ function computeResults(){
     const growth = (occ.growth_outlook_pct!=null) ? `${occ.growth_outlook_pct}%` : '—';
     li.innerHTML = `
       <strong>${occ.title}</strong>
+      <div class="small">${(occ.traits_map||[]).slice(0,3).join(', ')}</div>
       <div class="small">SOC: ${occ.soc||'—'} • Pay (median): ${pay} • Growth: ${growth}</div>
+      <div class="small">${occ.summary ? occ.summary : ''}</div>
       <div>${tags}</div>
       <div class="small"><a href="${occ.source_url||'#'}" target="_blank" rel="noopener">Source</a></div>
     `;
@@ -119,10 +131,74 @@ function exportSnapshot(){
   a.href = url; a.download = 'nova_navi_snapshot.json'; a.click(); URL.revokeObjectURL(url);
 }
 
+
+function saveSession(){
+  try{
+    localStorage.setItem("nova_navi_session", JSON.stringify({email: state.userEmail, access: state.accessUnlocked}));
+  }catch(e){}
+}
+function loadSession(){
+  try{
+    const raw = localStorage.getItem("nova_navi_session");
+    if(raw){
+      const s = JSON.parse(raw);
+      state.userEmail = s.email || null;
+      state.accessUnlocked = !!s.access;
+    }
+  }catch(e){}
+}
+function updateHeader(){
+  const sb = document.getElementById('signinBtn');
+  const so = document.getElementById('signoutBtn');
+  const ab = document.getElementById('accessBadge');
+  if(state.userEmail){
+    if(sb) sb.style.display = 'none';
+    if(so) so.style.display = 'inline-block';
+  }else{
+    if(sb) sb.style.display = 'inline-block';
+    if(so) so.style.display = 'none';
+  }
+  if(ab) ab.style.display = state.accessUnlocked ? 'inline-block' : 'none';
+  if(state.accessUnlocked){ ab && ab.classList.add('success'); }
+}
+
+function handleSignIn(){
+  const input = document.getElementById('signinEmail');
+  const val = (input?.value||'').trim();
+  if(!val || !val.includes('@')){ alert('Please enter a valid email.'); return; }
+  state.userEmail = val;
+  saveSession(); updateHeader(); show('welcome');
+}
+
+function handleAccessCode(){
+  const el = document.getElementById('accessInput');
+  const msg = document.getElementById('accessMsg');
+  const code = (el?.value||'').trim().toUpperCase();
+  const valid = ["NAVI-ACCESS-2025","NOVA-NAVI-KEY","MASTER-UNLOCK"];
+  if(valid.includes(code)){
+    state.accessUnlocked = true; saveSession(); updateHeader();
+    if(msg){ msg.textContent = "Unlocked! You now have access to extras."; msg.style.color = "#8ff0b3"; }
+  }else{
+    if(msg){ msg.textContent = "Invalid code. Try again or contact support."; msg.style.color = "#ffb3b3"; }
+  }
+}
+
+function signOut(){
+  state.userEmail = null;
+  state.accessUnlocked = false;
+  saveSession(); updateHeader(); show('welcome');
+}
+
 function init(){
   loadTraits(); loadOOH(); show('welcome');
   document.getElementById('clearBtn').disabled = true;
   document.getElementById('seeResultsBtn').disabled = true;
   document.getElementById('toChoosePath').disabled = true;
 }
-window.addEventListener('DOMContentLoaded', init);
+window.addEventListener('DOMContentLoaded', ()=>{
+  loadSession(); updateHeader();
+  const sb = document.getElementById('signinBtn'); const so = document.getElementById('signoutBtn');
+  if(sb){ sb.addEventListener('click', ()=>show('signin')); }
+  if(so){ so.addEventListener('click', signOut); }
+  init();
+});

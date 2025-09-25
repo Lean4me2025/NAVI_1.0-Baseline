@@ -34,3 +34,11 @@ hr{border:none;border-top:1px solid #1f2b46;margin:18px 0}
 .tag{display:inline-block;padding:3px 8px;border:1px solid #3b4f84;border-radius:999px;margin-right:6px;margin-top:6px;font-size:12px;opacity:.9}
 .banner{padding:10px 12px;border:1px solid #3b4f84;border-radius:10px;background:#0e1830;margin:8px 0}
 .code{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;font-size:12px}
+
+/* v1.4 additions */
+input[type="email"], input[type="text"]{
+  width:100%;padding:12px;border-radius:10px;border:1px solid #2a395e;background:#0c1324;color:#e9f0ff
+}
+.header-actions{display:flex;gap:8px;align-items:center}
+.badge.success{border-color:#39b46b;background:#103222;color:#c8f3d9}
+    
